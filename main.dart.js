@@ -91035,7 +91035,7 @@ A.rJ(l,l,!0,l,new A.apa(m,"\ud83d\udcca Report Manovella ("+q+")\n\n\u2022 Regis
 a0G(){var s=null,r=this.c
 r.toString
 A.rJ(s,s,!0,s,new A.apk(this),r,s,!0,t.z)},
-aqT(){var s=this,r=null,q=A.c([B.iH,A.cJ(A.zf(B.Wi,B.Wz,s.gkd(s),A.tG(B.eO,B.bU,r,new A.cH(A.fJ(16),B.n),r)),56,r),B.fH,A.cJ(A.zf(B.Wm,B.WN,new A.aos(s),A.tG(B.jP,B.k,r,new A.cH(A.fJ(12),B.n),r)),54,r),B.fI],t.p)
+aqT(){var s=this,r=null,q=A.c([B.iH,A.cJ(A.zf(B.Wi,B.WA,s.gkd(s),A.tG(B.eO,B.bU,r,new A.cH(A.fJ(16),B.n),r)),56,r),B.fH,A.cJ(A.zf(B.Wn,B.WO,new A.aos(s),A.tG(B.jP,B.k,r,new A.cH(A.fJ(12),B.n),r)),54,r),B.fI],t.p)
 B.b.U(q,s.Zy())
 q.push(B.A9)
 q.push(B.DQ)
@@ -91058,7 +91058,7 @@ s.m(0,p+":00 - "+n+":00",q+1)}h=A.fJ(12)
 q=t.fD
 q=A.a1(new A.ae(A.c(["Giorno","Sett.","Mese","Anno","Top Ore"],t.s),new A.aoX(m),q),q.h("aF.E"))
 p=t.p
-h=A.c([B.Wo,B.fH,A.f7(l,A.aFE(q,3,3),B.v,l,new A.cN(B.hj,l,l,h,l,l,B.al),l,l,l,B.Gm,l,l,l)],p)
+h=A.c([B.Wp,B.fH,A.f7(l,A.aFE(q,3,3),B.v,l,new A.cN(B.hj,l,l,h,l,l,B.al),l,l,l,B.Gm,l,l,l)],p)
 if(m.r!=="Top Ore"){i=A.fJ(15)
 q=A.c([A.h4(A.c([A.l1(l,l,B.H3,l,l,new A.aoY(m),l,l,l),A.lL(A.b8(m.gZk(),l,l,l,B.U3,l,l,l),new A.aoZ(m),l),A.l1(l,l,B.H2,l,l,new A.ap_(m),l,l,l)],p),B.a1,B.fo,B.ac,0),new A.dp(B.jm,l,l,A.cJ(A.zf(B.oO,B.AH,m.ga0t(),A.tG(B.jP,B.aS,B.o9,l,l)),32,l),l),B.fI,A.h4(A.c([m.aup("Kcal Stimate",B.c.ae(j*3.2,1),B.nP,"\ud83d\udd25"),B.QN,m.Zz("Totale",""+k.length,B.aS,"\ud83d\udd27",m.ga0F())],p),B.a1,B.P,B.ac,0),B.fI],p)
 if(m.r==="Giorno")if(s.a===0)q.push(B.WZ)
@@ -91080,7 +91080,7 @@ p=A.c([A.a1A(new A.bx(B.bE,A.eh(A.c([A.b8("Completamento totale  "+q+" / 41",s,s
 B.b.U(p,new A.eS(r,new A.apn(this),A.k(r).h("eS<1,e>")))
 return A.pR(p,B.bE,s,!1)},
 a0o(){var s=null
-return A.pR(A.c([B.WT,A.a1A(A.pO(s,s,s,!0,!0,B.WQ,s,new A.ap6(this),!1,s,s,B.Wu,B.Wj,B.oP,s),s),A.a1A(A.pO(s,s,s,!0,!0,B.Wp,s,new A.ap7(this),!1,s,s,B.WV,B.WI,B.oP,s),s)],t.p),B.bE,s,!1)},
+return A.pR(A.c([B.WU,A.a1A(A.pO(s,s,s,!0,!0,B.WR,s,new A.ap6(this),!1,s,s,B.Wv,B.Wk,B.oP,s),s),A.a1A(A.pO(s,s,s,!0,!0,B.Wq,s,new A.ap7(this),!1,s,s,B.Wj,B.WJ,B.oP,s),s)],t.p),B.bE,s,!1)},
 rp(a,b){var s=null,r=A.b8(a,s,s,s,s,s,s,s)
 return A.pO(s,s,s,!0,!0,s,s,new A.aoR(this,b),this.f===b,s,s,s,r,s,s)},
 K(a){var s,r,q,p,o,n=this,m=null,l=n.aqT(),k=A.pR(n.Zy(),B.bE,m,!1),j=n.av9(),i=A.b8("\ud83d\udcca Logica di calcolo incidenza",m,m,m,m,m,m,m),h=t.p
@@ -91091,7 +91091,7 @@ r=A.b8("\ud83c\udfc6 Trofei e achievement",m,m,m,m,m,m,m)
 r=A.a5b(A.c([A.b8("Ogni registrazione pu\xf2 sbloccare trofei per progressione, durata, mano, fasce orarie e giorni speciali.",m,m,m,m,m,m,m)],h),B.bE,r)
 q=A.b8("\ud83d\udcbe Backup e privacy",m,m,m,m,m,m,m)
 p=t.N
-o=A.aI(["home",l,"report",k,"trofei",j,"info",A.pR(A.c([B.WK,i,s,r,A.a5b(A.c([A.b8("I dati restano nel browser di questo dispositivo. Esporta periodicamente il CSV dalle Impostazioni per conservarne una copia.",m,m,m,m,m,m,m)],h),B.bE,q)],h),B.bE,m,!1),"settings",n.a0o(),"backup",A.pR(A.c([B.WB,B.ef,B.WS,B.QQ,A.cJ(A.zf(B.H5,B.Wg,n.ga_m(),m),52,m),B.ef,A.cJ(A.aDX(B.Ha,B.WO,n.gaqZ()),52,m)],h),B.bE,m,!1),"about",B.DP],p,t.l7)
+o=A.aI(["home",l,"report",k,"trofei",j,"info",A.pR(A.c([B.WL,i,s,r,A.a5b(A.c([A.b8("I dati restano nel browser di questo dispositivo. Esporta periodicamente il CSV dalle Impostazioni per conservarne una copia.",m,m,m,m,m,m,m)],h),B.bE,q)],h),B.bE,m,!1),"settings",n.a0o(),"backup",A.pR(A.c([B.WC,B.ef,B.WT,B.QQ,A.cJ(A.zf(B.H5,B.Wg,n.ga_m(),m),52,m),B.ef,A.cJ(A.aDX(B.Ha,B.WP,n.gaqZ()),52,m)],h),B.bE,m,!1),"about",B.DP],p,t.l7)
 p=A.aI(["home","\ud83d\udd27 MANOVELLA","report","\ud83d\udcca Report","trofei","\ud83c\udfc6 Trofei & Achievements","info","\ud83d\udca1 Centro informazioni","settings","\u2699\ufe0f Impostazioni","backup","\ud83d\udcbe Gestione Backup","about","\u2139\ufe0f About"],p,p).i(0,n.f)
 p.toString
 p=A.b8(p,m,m,m,m,m,m,m)
@@ -91211,7 +91211,7 @@ $S:5}
 A.anC.prototype={
 $1(a){var s=null,r=this.b,q=A.b8(r.d,s,s,s,B.UP,s,s,s)
 r=A.b8(r.b+"\n\n"+r.c,s,s,s,s,s,s,s)
-return A.rP(A.c([A.lL(B.Wh,new A.anB(this.a),s)],t.p),r,q,B.Ws)},
+return A.rP(A.c([A.lL(B.Wh,new A.anB(this.a),s)],t.p),r,q,B.Wt)},
 $S:84}
 A.anB.prototype={
 $0(){var s=this.a.c
@@ -91228,11 +91228,11 @@ n=A.aDX(B.oN,A.b8("Data: "+B.d.dP(B.e.k(A.bO(n)),2,"0")+"/"+B.d.dP(B.e.k(A.b_(n)
 s=this.b
 r=s.length===1?p:new A.aoG(b,s)
 q=t.p
-o=A.c([n,B.ef,B.WW,A.h4(A.c([A.ze(B.WY,r,A.tG(B.eO,B.bU,p,p,p)),new A.bx(B.Gj,A.b8(""+s.length,p,p,p,B.T6,p,p,p),p),A.ze(B.Ww,new A.aoH(o,b,s),A.tG(B.eO,B.bU,p,p,p))],q),B.a1,B.fn,B.ac,0),B.fH],q)
+o=A.c([n,B.ef,B.WW,A.h4(A.c([A.ze(B.WY,r,A.tG(B.eO,B.bU,p,p,p)),new A.bx(B.Gj,A.b8(""+s.length,p,p,p,B.T6,p,p,p),p),A.ze(B.Wx,new A.aoH(o,b,s),A.tG(B.eO,B.bU,p,p,p))],q),B.a1,B.fn,B.ac,0),B.fH],q)
 s=new A.iX(s,A.Y(s).h("iX<1>"))
 B.b.U(o,s.gh8(s).hf(0,new A.aoI(b),t.l7))
 o=A.cJ(A.aEL(A.eh(o,B.bV,B.P,B.bj)),p,440)
-return A.rP(A.c([A.lL(B.mb,new A.aoJ(a),p),A.zf(B.H6,B.Wk,new A.aoK(a),A.tG(B.eO,B.bU,p,p,p))],q),o,p,B.WC)},
+return A.rP(A.c([A.lL(B.mb,new A.aoJ(a),p),A.zf(B.H6,B.Wl,new A.aoK(a),A.tG(B.eO,B.bU,p,p,p))],q),o,p,B.WD)},
 $S:121}
 A.aoF.prototype={
 $0(){var s=0,r=A.W(t.H),q=this,p,o,n
@@ -91328,7 +91328,7 @@ m=new A.iX(r,A.Y(r).h("iX<1>"))
 B.b.U(q,m.gh8(m).hf(0,new A.aoh(b,r),t.l7))
 B.b.U(g,q)}g=A.aEL(A.eh(g,B.a1,B.P,B.bj))
 h=A.c([A.lL(B.mb,new A.aoi(a),k)],h)
-if(j)h.push(new A.AU(!1,new A.aoj(s,b,l.c),k,k,k,k,k,k,!1,k,!0,k,B.WJ,k))
+if(j)h.push(new A.AU(!1,new A.aoj(s,b,l.c),k,k,k,k,k,k,!1,k,!0,k,B.WK,k))
 h.push(A.ze(A.b8(j?"Salva registrazioni":"Salva registrazione",k,k,k,k,k,k,k),new A.aok(s,j,l.c,a),k))
 return A.rP(h,g,k,i)},
 $S:121}
@@ -91437,7 +91437,7 @@ return["\ud83e\udd47","\ud83e\udd48","\ud83e\udd49"][a.a]+" "+s.a+": "+s.b+" man
 $S:558}
 A.ape.prototype={
 $1(a){var s=this.b,r=A.aEE(s)
-return A.rP(A.c([A.ze(B.AI,new A.apb(this.a,s),null)],t.p),r,null,B.WM)},
+return A.rP(A.c([A.ze(B.AI,new A.apb(this.a,s),null)],t.p),r,null,B.WN)},
 $S:84}
 A.apb.prototype={
 $0(){var s,r=null,q=window.navigator.clipboard
@@ -91454,7 +91454,7 @@ $2(a,b){return a+b.e},
 $S:118}
 A.apa.prototype={
 $1(a){var s=this.b,r=A.aEE(s)
-return A.rP(A.c([A.ze(B.AI,new A.ap8(this.a,s),null)],t.p),r,null,B.Wn)},
+return A.rP(A.c([A.ze(B.AI,new A.ap8(this.a,s),null)],t.p),r,null,B.Wo)},
 $S:84}
 A.ap8.prototype={
 $0(){var s,r=null,q=window.navigator.clipboard
@@ -91472,10 +91472,10 @@ $S:120}
 A.apj.prototype={
 $2(a,b){var s=null,r=this.a,q=r.gID(),p=A.Y(q).h("cc<1>"),o=A.a1(new A.cc(q,p),p.h("aF.E"))
 q=o.length
-if(q===0)r=B.WH
+if(q===0)r=B.WI
 else r=new A.Ab(new A.CA(new A.aph(r,o,b),q,!0,!0,!0,s),s,B.ak,!1,s,s,B.jn,!0,s,s,q,B.ag,s,s,B.D,B.av,s)
 r=A.cJ(r,s,360)
-return A.rP(A.c([A.lL(B.WL,new A.api(a),s)],t.p),r,s,B.Wy)},
+return A.rP(A.c([A.lL(B.WM,new A.api(a),s)],t.p),r,s,B.Wz)},
 $S:121}
 A.aph.prototype={
 $2(a,b){var s,r,q,p=null,o=this.b[b],n=A.fJ(10),m=o.c
@@ -91576,7 +91576,7 @@ return A.V($async$$0,r)},
 $S:18}
 A.ap4.prototype={
 $1(a){var s=this.a
-return A.rP(A.c([A.lL(B.mb,new A.ap2(s),null),A.ze(B.Wq,new A.ap3(s),null)],t.p),B.WE,null,B.WR)},
+return A.rP(A.c([A.lL(B.mb,new A.ap2(s),null),A.ze(B.Wr,new A.ap3(s),null)],t.p),B.WF,null,B.WS)},
 $S:84}
 A.ap2.prototype={
 $0(){var s=this.a.c
@@ -95886,8 +95886,8 @@ B.DM=new A.rY(null,null,null,null,null,null,null)
 B.DN=new A.xX(null,null,null,null,null,null)
 B.jT=new A.D(0.6,1,1,1,B.i)
 B.ma=new A.n(!0,B.jT,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.WD=new A.by("\ud83d\udd25 TOP 5 FASCE ORARIE",null,B.ma,null,null,null,null,null,null,null)
-B.DO=new A.hZ(B.Y,null,null,B.WD,null)
+B.WE=new A.by("\ud83d\udd25 TOP 5 FASCE ORARIE",null,B.ma,null,null,null,null,null,null,null)
+B.DO=new A.hZ(B.Y,null,null,B.WE,null)
 B.Gl=new A.ap(28,28,28,28)
 B.P=new A.n1(0,"start")
 B.bj=new A.MP(0,"min")
@@ -95897,7 +95897,7 @@ B.v=new A.t9(0,"none")
 B.aS=new A.D(1,0.9607843137254902,0.6196078431372549,0.043137254901960784,B.i)
 B.bg=new A.fV(700)
 B.AE=new A.n(!0,B.aS,null,null,null,null,23,B.bg,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Wt=new A.by("\u2139\ufe0f About",null,B.AE,null,null,null,null,null,null,null)
+B.Wu=new A.by("\u2139\ufe0f About",null,B.AE,null,null,null,null,null,null,null)
 B.m_=new A.du(null,16,null,null)
 B.M=new A.D(0.7019607843137254,1,1,1,B.i)
 B.S_=new A.n(!0,B.M,null,null,null,null,null,null,null,null,null,null,1.6,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -95906,14 +95906,14 @@ B.WX=new A.by("MANOVELLA\nRegistro personale di Manovellanza",null,B.S_,B.eh,nul
 B.ef=new A.du(null,12,null,null)
 B.jS=new A.D(0.3843137254901961,1,1,1,B.i)
 B.Va=new A.n(!0,B.jS,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.WF=new A.by("Versione PWA",null,B.Va,null,null,null,null,null,null,null)
-B.JK=s([B.Wt,B.m_,B.WX,B.ef,B.WF],t.p)
+B.WG=new A.by("Versione PWA",null,B.Va,null,null,null,null,null,null,null)
+B.JK=s([B.Wu,B.m_,B.WX,B.ef,B.WG],t.p)
 B.EO=new A.tg(B.ak,B.P,B.bj,B.a1,null,B.bM,null,0,B.JK,null)
 B.Nf=new A.bx(B.Gl,B.EO,null)
 B.DP=new A.hZ(B.Y,null,null,B.Nf,null)
 B.SK=new A.n(!0,B.jS,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Wv=new A.by("Versione 1.35",null,B.SK,null,null,null,null,null,null,null)
-B.DQ=new A.hZ(B.Y,null,null,B.Wv,null)
+B.Ww=new A.by("Versione 1.35",null,B.SK,null,null,null,null,null,null,null)
+B.DQ=new A.hZ(B.Y,null,null,B.Ww,null)
 B.DS=new A.xZ(null,null,null,null,null,null,null,null,null)
 B.dM=new A.t0(0,"none")
 B.cZ=new A.t0(1,"isTrue")
@@ -96022,10 +96022,10 @@ B.EM=new A.D(0.9411764705882353,0.7529411764705882,0.7529411764705882,0.75294117
 B.hj=new A.D(1,0.12156862745098039,0.1607843137254902,0.21568627450980393,B.i)
 B.ac=new A.MP(1,"max")
 B.bp=new A.p6(0,"start")
-B.WP=new A.by("\ud83d\udd27 MANOVELLA",null,B.AE,null,null,null,null,null,null,null)
+B.WQ=new A.by("\ud83d\udd27 MANOVELLA",null,B.AE,null,null,null,null,null,null,null)
 B.iH=new A.du(null,8,null,null)
-B.Wl=new A.by("Registro personale di Manovellanza",null,null,null,null,null,null,null,null,null)
-B.Id=s([B.WP,B.iH,B.Wl],t.p)
+B.Wm=new A.by("Registro personale di Manovellanza",null,null,null,null,null,null,null,null,null)
+B.Id=s([B.WQ,B.iH,B.Wm],t.p)
 B.EN=new A.tg(B.ak,B.P,B.ac,B.bp,null,B.bM,null,0,B.Id,null)
 B.hl=new A.i1(0,"cut")
 B.hm=new A.i1(1,"copy")
@@ -96608,10 +96608,10 @@ B.Cy=new A.mk()
 B.ir=new A.OX(1,"page")
 B.is=new A.eF(B.bf,B.ir)
 B.Jn=s([B.Cy,B.is],A.ay("B<b6>"))
-B.WG=new A.by("\ud83d\udd90\ufe0f Destra",null,null,null,null,null,null,null,null,null)
-B.Fz=new A.fR("Destra",B.WG,B.bm,null,t.b7)
-B.WU=new A.by("\ud83e\udd1a Sinistra",null,null,null,null,null,null,null,null,null)
-B.Fw=new A.fR("Sinistra",B.WU,B.bm,null,t.b7)
+B.WH=new A.by("\ud83d\udd90\ufe0f Destra",null,null,null,null,null,null,null,null,null)
+B.Fz=new A.fR("Destra",B.WH,B.bm,null,t.b7)
+B.WV=new A.by("\ud83e\udd1a Sinistra",null,null,null,null,null,null,null,null,null)
+B.Fw=new A.fR("Sinistra",B.WV,B.bm,null,t.b7)
 B.Jp=s([B.Fz,B.Fw],t.FG)
 B.Jy=s([],t.QP)
 B.pa=s([],A.ay("B<aWr>"))
@@ -96632,10 +96632,10 @@ B.Ju=s([],t.p)
 B.Jr=s([],t.t)
 B.p9=s([],t.ee)
 B.Jz=s([],t.XS)
-B.Wr=new A.by("\ud83d\udd90\ufe0f Mano Destra",null,null,null,null,null,null,null,null,null)
-B.Fy=new A.fR("Destra",B.Wr,B.bm,null,t.b7)
-B.WA=new A.by("\ud83e\udd1a Mano Sinistra",null,null,null,null,null,null,null,null,null)
-B.Fx=new A.fR("Sinistra",B.WA,B.bm,null,t.b7)
+B.Ws=new A.by("\ud83d\udd90\ufe0f Mano Destra",null,null,null,null,null,null,null,null,null)
+B.Fy=new A.fR("Destra",B.Ws,B.bm,null,t.b7)
+B.WB=new A.by("\ud83e\udd1a Mano Sinistra",null,null,null,null,null,null,null,null,null)
+B.Fx=new A.fR("Sinistra",B.WB,B.bm,null,t.b7)
 B.JE=s([B.Fy,B.Fx],t.FG)
 B.JF=s(["S","M","T","W","T","F","S"],t.s)
 B.i8=new A.h(0,2)
@@ -97768,8 +97768,8 @@ B.Nd=new A.Nq(1,"end")
 B.vx=new A.Nr(0,"nearestOverlay")
 B.Ne=new A.Nr(1,"rootOverlay")
 B.G8=new A.ap(10,10,10,10)
-B.Wx=new A.by("Non ci sono ancora dati.",null,null,null,null,null,null,null,null,null)
-B.DR=new A.hZ(B.Y,null,null,B.Wx,null)
+B.Wy=new A.by("Non ci sono ancora dati.",null,null,null,null,null,null,null,null,null)
+B.DR=new A.hZ(B.Y,null,null,B.Wy,null)
 B.Ng=new A.bx(B.G8,B.DR,null)
 B.Nh=new A.AZ(null)
 B.ch=new A.Ny(0,"fill")
@@ -98478,39 +98478,39 @@ B.Wf=new A.dZ(B.U0,B.SW,B.U1,B.Uu,B.SC,B.SL,B.Tg,B.Up,B.Ts,B.US,B.S5,B.Sn,B.UO,B
 B.Wg=new A.by("Esporta file CSV",null,null,null,null,null,null,null,null,null)
 B.Wh=new A.by("Fantastico!",null,null,null,null,null,null,null,null,null)
 B.Wi=new A.by("\u26a1",null,null,null,null,null,null,null,null,null)
-B.Wj=new A.by("Backup dei dati",null,null,null,null,null,null,null,null,null)
-B.Wk=new A.by("Salva Registrazioni",null,null,null,null,null,null,null,null,null)
-B.Wm=new A.by("\ud83d\udcc5",null,null,null,null,null,null,null,null,null)
-B.Wn=new A.by("\ud83d\udce4 Condividi Report",null,null,null,null,null,null,null,null,null)
+B.Wj=new A.by("Rimuove registrazioni e trofei",null,null,null,null,null,null,null,null,null)
+B.Wk=new A.by("Backup dei dati",null,null,null,null,null,null,null,null,null)
+B.Wl=new A.by("Salva Registrazioni",null,null,null,null,null,null,null,null,null)
+B.Wn=new A.by("\ud83d\udcc5",null,null,null,null,null,null,null,null,null)
+B.Wo=new A.by("\ud83d\udce4 Condividi Report",null,null,null,null,null,null,null,null,null)
 B.iM=new A.n(!0,B.aS,null,null,null,null,22,B.bg,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Wo=new A.by("\ud83d\udcca Sezione Report",null,B.iM,null,null,null,null,null,null,null)
+B.Wp=new A.by("\ud83d\udcca Sezione Report",null,B.iM,null,null,null,null,null,null,null)
 B.AF=new A.n(!0,null,null,null,null,null,22,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Wp=new A.by("\ud83d\uddd1\ufe0f",null,B.AF,null,null,null,null,null,null,null)
-B.Wq=new A.by("Elimina",null,null,null,null,null,null,null,null,null)
-B.Ws=new A.by("\ud83c\udfc6 Trofeo sbloccato!",null,null,null,null,null,null,null,null,null)
-B.Wu=new A.by("Esporta o importa le registrazioni CSV",null,null,null,null,null,null,null,null,null)
-B.Ww=new A.by("+",null,null,null,null,null,null,null,null,null)
+B.Wq=new A.by("\ud83d\uddd1\ufe0f",null,B.AF,null,null,null,null,null,null,null)
+B.Wr=new A.by("Elimina",null,null,null,null,null,null,null,null,null)
+B.Wt=new A.by("\ud83c\udfc6 Trofeo sbloccato!",null,null,null,null,null,null,null,null,null)
+B.Wv=new A.by("Esporta o importa le registrazioni CSV",null,null,null,null,null,null,null,null,null)
+B.Wx=new A.by("+",null,null,null,null,null,null,null,null,null)
 B.Sy=new A.n(!0,B.aS,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Wy=new A.by("\ud83d\udccb Dettaglio Registrazioni",null,B.Sy,null,null,null,null,null,null,null)
-B.Wz=new A.by("Registra Manovella Ora",null,null,null,null,null,null,null,null,null)
-B.WB=new A.by("\ud83d\udcbe Gestione Backup",null,B.iM,null,null,null,null,null,null,null)
-B.WC=new A.by("Registrazione Manuale",null,B.iL,null,null,null,null,null,null,null)
-B.WE=new A.by("Le registrazioni e i trofei verranno rimossi dal browser.",null,null,null,null,null,null,null,null,null)
-B.WH=new A.by("Nessuna attivit\xe0 nel periodo selezionato.",null,null,null,null,null,null,null,null,null)
-B.WI=new A.by("Elimina dati locali",null,null,null,null,null,null,null,null,null)
-B.WJ=new A.by("Aggiungi manovella",null,null,null,null,null,null,null,null,null)
-B.WK=new A.by("\ud83d\udca1 Centro informazioni",null,B.iM,null,null,null,null,null,null,null)
-B.WL=new A.by("Chiudi",null,null,null,null,null,null,null,null,null)
-B.WM=new A.by("\ud83d\udce4 Condividi Top Ore",null,null,null,null,null,null,null,null,null)
-B.WN=new A.by("Registrazione Manuale",null,null,null,null,null,null,null,null,null)
-B.WO=new A.by("Importa file CSV",null,null,null,null,null,null,null,null,null)
+B.Wz=new A.by("\ud83d\udccb Dettaglio Registrazioni",null,B.Sy,null,null,null,null,null,null,null)
+B.WA=new A.by("Registra Manovella Ora",null,null,null,null,null,null,null,null,null)
+B.WC=new A.by("\ud83d\udcbe Gestione Backup",null,B.iM,null,null,null,null,null,null,null)
+B.WD=new A.by("Registrazione Manuale",null,B.iL,null,null,null,null,null,null,null)
+B.WF=new A.by("Le registrazioni e i trofei verranno rimossi dal browser.",null,null,null,null,null,null,null,null,null)
+B.WI=new A.by("Nessuna attivit\xe0 nel periodo selezionato.",null,null,null,null,null,null,null,null,null)
+B.WJ=new A.by("Elimina dati locali",null,null,null,null,null,null,null,null,null)
+B.WK=new A.by("Aggiungi manovella",null,null,null,null,null,null,null,null,null)
+B.WL=new A.by("\ud83d\udca1 Centro informazioni",null,B.iM,null,null,null,null,null,null,null)
+B.WM=new A.by("Chiudi",null,null,null,null,null,null,null,null,null)
+B.WN=new A.by("\ud83d\udce4 Condividi Top Ore",null,null,null,null,null,null,null,null,null)
+B.WO=new A.by("Registrazione Manuale",null,null,null,null,null,null,null,null,null)
+B.WP=new A.by("Importa file CSV",null,null,null,null,null,null,null,null,null)
 B.Uv=new A.n(!0,null,null,null,null,null,11,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.AH=new A.by("Condividi",null,B.Uv,null,null,null,null,null,null,null)
-B.WQ=new A.by("\ud83d\udcbe",null,B.AF,null,null,null,null,null,null,null)
-B.WR=new A.by("Eliminare tutti i dati?",null,null,null,null,null,null,null,null,null)
-B.WS=new A.by("Esporta un file CSV con tutte le registrazioni oppure ripristina un backup precedente.",null,null,null,null,null,null,null,null,null)
-B.WT=new A.by("\u2699\ufe0f Impostazioni",null,B.iM,null,null,null,null,null,null,null)
-B.WV=new A.by("Rimuove registrazioni e trofei dal browser",null,null,null,null,null,null,null,null,null)
+B.WR=new A.by("\ud83d\udcbe",null,B.AF,null,null,null,null,null,null,null)
+B.WS=new A.by("Eliminare tutti i dati?",null,null,null,null,null,null,null,null,null)
+B.WT=new A.by("Esporta un file CSV con tutte le registrazioni oppure ripristina un backup precedente.",null,null,null,null,null,null,null,null,null)
+B.WU=new A.by("\u2699\ufe0f Impostazioni",null,B.iM,null,null,null,null,null,null,null)
 B.WW=new A.by("Quante manovelle hai fatto?",null,B.ma,null,null,null,null,null,null,null)
 B.AI=new A.by("Copia testo",null,null,null,null,null,null,null,null,null)
 B.mb=new A.by("Annulla",null,null,null,null,null,null,null,null,null)
