@@ -1,7 +1,8 @@
 {
-    "name": "LA MANOVELLA",
+    "id": "/staiul/manovella",
+    "name": "MANOVELLA",
     "short_name": "MANOVELLA",
-    "start_url": ".",
+    "start_url": "/staiul/",
     "display": "standalone",
     "background_color": "#111827",
     "theme_color": "#111827",
