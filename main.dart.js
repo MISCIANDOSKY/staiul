@@ -92166,7 +92166,7 @@ ai(){return new A.Fh(A.c([],t.BR),A.ay(t.N),new A.cj(Date.now(),0,!1))}}
 A.Fh.prototype={
 aw(){var s,r,q=this
 q.aM()
-s=A.aM6("assets/audio/trophy_unlock.mp3")
+s=A.aM6("assets/assets/audio/trophy_unlock.mp3")
 s.preload="auto"
 s.volume=0.72
 q.r!==$&&A.bi()
