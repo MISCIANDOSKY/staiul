@@ -92533,9 +92533,9 @@ return A.k6(A.c([B.X_,A.mF(A.ih(!1,s,s,s,!0,s,s,s,!0,s,B.Xu,s,s,s,s,new A.ap6(th
 rA(a,b){var s=null,r=A.b3(a,s,s,s,s,s,s,s)
 return A.ih(!1,s,s,s,!0,s,s,s,!0,s,s,s,s,s,s,new A.apE(this,b),this.w===b,s,s,s,s,s,s,s,r,s,s)},
 J(a){var s,r,q,p,o,n=this,m=null,l=n.ask(),k=A.k6(n.a_g(),B.bh,m,!1),j=n.awT(),i=A.b3("\ud83d\udcca Logica di calcolo incidenza",m,m,m,m,m,m,m),h=t.p
-i=A.a5E(A.c([A.b3("L\u2019incidenza giornaliera rappresenta la media di attivit\xe0 nel periodo scelto. Per settimana, mese e anno considera i giorni effettivamente trascorsi.",m,m,m,m,m,m,m)],h),B.bh,i)
+i=A.a5E(A.c([A.b3("L'Incidenza Giornaliera esprime la media reale di attivit\xe0 registrata al giorno nel periodo selezionato.\n\nPer evitare medie falsate verso il basso nei periodi correnti, l'app usa un divisore dinamico intelligente:\n\n1. Settimana: Divisore fisso a 7 per settimane concluse, mentre per quella corrente si adatta giorno per giorno.\n\n2. Mese: Divide per i giorni effettivi del mese. Se \xe8 il mese in corso, si ferma al giorno di oggi.\n\n3. Anno: Divide per 365/366 giorni. Se \xe8 l'anno in corso, calcola i giorni esatti trascorsi ad oggi.",m,m,m,m,m,m,m)],h),B.bh,i)
 s=A.b3("\ud83d\udd25 Logica di calcolo KCAL",m,m,m,m,m,m,m)
-s=A.a5E(A.c([A.b3("La stima \xe8 di circa 3,2 kcal al minuto per una persona di peso medio. \xc8 un valore indicativo e pu\xf2 variare.",m,m,m,m,m,m,m)],h),B.bh,s)
+s=A.a5E(A.c([A.b3("Consumo calorico durante la manovella\n\nFare la manovella comporta un consumo energetico variabile in base alla durata dell\u2019attivit\xe0, all\u2019intensit\xe0 dei movimenti e alle caratteristiche fisiche della persona.\n\nPer un uomo con un peso medio di circa 77 kg, il consumo stimato durante la manovella \xe8 di circa 3,2 kcal al minuto.",m,m,m,m,m,m,m)],h),B.bh,s)
 r=A.b3("\ud83c\udfc6 Trofei e achievement",m,m,m,m,m,m,m)
 r=A.a5E(A.c([A.b3("Ogni registrazione pu\xf2 sbloccare trofei per progressione, durata, mano, fasce orarie e giorni speciali.",m,m,m,m,m,m,m)],h),B.bh,r)
 q=A.b3("\ud83d\udcbe Backup e privacy",m,m,m,m,m,m,m)
