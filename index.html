@@ -17,13 +17,13 @@
   <base href="/staiul/">
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="Registro personale di Manovellanza.">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="MANOVELLA">
   <meta name="application-name" content="MANOVELLA">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
@@ -38,27 +38,6 @@
        dietro la barra di stato, senza fascia bianca o sfumatura del browser. */
     html, body { margin: 0; min-height: 100%; background: #16110c; }
   </style>
-  <script>
-    // In modalità "Aggiungi a schermata Home" iOS può completare il calcolo
-    // della viewport dopo che Flutter è già partito. Forziamo quindi Flutter
-    // a riallineare canvas e coordinate touch quando la viewport si stabilizza.
-    (() => {
-      let debounce;
-      const syncViewport = () => window.dispatchEvent(new Event('resize'));
-      const scheduleSync = () => {
-        clearTimeout(debounce);
-        debounce = setTimeout(syncViewport, 50);
-      };
-      const syncAfterLaunch = () => [0, 150, 500, 1200].forEach(
-        delay => setTimeout(syncViewport, delay)
-      );
-      window.addEventListener('load', syncAfterLaunch);
-      window.addEventListener('pageshow', syncAfterLaunch);
-      window.addEventListener('orientationchange', syncAfterLaunch);
-      window.visualViewport?.addEventListener('resize', scheduleSync);
-      window.visualViewport?.addEventListener('scroll', scheduleSync);
-    })();
-  </script>
 </head>
 <body>
   <!--
