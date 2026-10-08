@@ -37,9 +37,55 @@
     /* Su tutti gli iPhone con notch/Dynamic Island: sfondo uniforme anche
        dietro la barra di stato, senza fascia bianca o sfumatura del browser. */
     html, body { margin: 0; min-height: 100%; background: #16110c; }
+    #startup-loader {
+      position: fixed;
+      z-index: 99999;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      background: #111827;
+      opacity: 1;
+      transition: opacity 260ms ease;
+    }
+    #startup-loader.is-hidden { opacity: 0; pointer-events: none; }
+    #startup-loader video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background: #111827;
+    }
   </style>
 </head>
 <body>
+  <div id="startup-loader" aria-label="Caricamento MANOVELLA">
+    <video id="startup-video" muted playsinline autoplay preload="auto">
+      <source src="loading.mp4" type="video/mp4">
+    </video>
+  </div>
+  <script>
+    // Il video copre l'avvio del motore Flutter. Si chiude solo quando il
+    // filmato e la prima schermata dell'app sono entrambi pronti.
+    (() => {
+      const loader = document.getElementById('startup-loader');
+      const video = document.getElementById('startup-video');
+      let appReady = false;
+      let videoDone = false;
+      let closed = false;
+      const closeLoader = () => {
+        if (closed || !appReady || !videoDone) return;
+        closed = true;
+        loader.classList.add('is-hidden');
+        setTimeout(() => loader.remove(), 300);
+      };
+      video.muted = true;
+      video.addEventListener('ended', () => { videoDone = true; closeLoader(); });
+      video.addEventListener('error', () => { videoDone = true; closeLoader(); });
+      window.addEventListener('flutter-first-frame', () => { appReady = true; closeLoader(); });
+      video.play().catch(() => { videoDone = true; closeLoader(); });
+      // Protezione nel caso un browser non invii l'evento di Flutter.
+      setTimeout(() => { appReady = true; videoDone = true; closeLoader(); }, 9000);
+    })();
+  </script>
   <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader
