@@ -51,7 +51,10 @@
     #startup-loader video {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      /* Mantiene sempre il video intero: iPhone, Pro e Pro Max hanno
+         proporzioni diverse e "cover" tagliava logo e testo ai lati. */
+      object-fit: contain;
+      object-position: center;
       background: #111827;
     }
   </style>
