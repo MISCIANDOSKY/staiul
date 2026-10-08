@@ -92472,7 +92472,7 @@ A.xj(s,s,!0,s,new A.aq1(this),r,s,!0,t.z)},
 ask(){var s=this,r=null,q=t.p,p=A.c([B.iL,A.cL(A.tQ(B.WQ,B.Xd,s.gkg(s),A.pr(B.dT,B.bx,r,new A.cJ(A.fl(16),B.n),r)),56,r),B.ej,A.cL(A.tQ(B.WY,B.Xw,new A.ape(s),A.pr(B.jX,B.k,r,new A.cJ(A.fl(12),B.n),r)),54,r),B.fO],q)
 B.b.S(p,s.a_g())
 p.push(B.Rj)
-return A.e8(A.c([A.i8(A.k6(p,B.bi,r,!1),1),A.uY(!0,new A.by(B.GH,A.b4("Versione 1.45",r,r,r,B.Tg,r,r,r),r),B.aD,!1)],q),B.a_,B.S,B.ab)},
+return A.e8(A.c([A.i8(A.k6(p,B.bi,r,!1),1),A.uY(!0,new A.by(B.GH,A.b4("Versione 1.46",r,r,r,B.Tg,r,r,r),r),B.aD,!1)],q),B.a_,B.S,B.ab)},
 a_h(a,b,c,d,e){var s=null,r=A.fl(15),q=A.a9(31,c.p()>>>16&255,c.p()>>>8&255,c.p()&255),p=A.fl(15),o=new A.aW(A.a9(140,c.p()>>>16&255,c.p()>>>8&255,c.p()&255),1,B.u,-1)
 return A.i8(A.u2(!1,r,!0,A.eT(s,A.e8(A.c([A.b4(d+" "+a,s,s,s,B.mk,s,s,s),B.Rm,A.b4(b,s,s,s,A.fe(s,s,c,s,s,s,s,s,s,s,s,28,s,s,B.ba,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.a_,B.fs,B.ab),B.w,s,new A.cG(q,s,new A.da(o,o,o,o),p,s,s,B.ah),s,94,s,s,s,s,s),s,!0,s,s,s,s,s,s,s,s,s,e,s,s,s,s,s,s,s),1)},
 aw8(a,b,c,d){return this.a_h(a,b,c,d,null)},
@@ -97418,7 +97418,7 @@ B.Xp=new A.b3("Powered by MISCIANDOSKY",null,B.SZ,null,null,null,null,null,null,
 B.ej=new A.dg(null,10,null,null)
 B.k0=new A.C(0.3843137254901961,1,1,1,B.h)
 B.VI=new A.m(!0,B.k0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Xa=new A.b3("Versione 1.45",null,B.VI,null,null,null,null,null,null,null)
+B.Xa=new A.b3("Versione 1.46",null,B.VI,null,null,null,null,null,null,null)
 B.IZ=s([B.X6,B.ma,B.XK,B.Av,B.Xs,B.Av,B.Xp,B.ej,B.Xa],t.p)
 B.Fd=new A.to(B.am,B.S,B.bl,B.a_,null,B.bO,null,0,B.IZ,null)
 B.NJ=new A.by(B.GL,B.Fd,null)
