@@ -92178,7 +92178,7 @@ ai(){return new A.Fh(A.c([],t.BR),A.ay(t.N),new A.cj(Date.now(),0,!1))}}
 A.Fh.prototype={
 aw(){var s,r,q=this
 q.aM()
-s=A.aM7("assets/audio/trophy_unlock.mp3")
+s=A.aM7("assets/assets/audio/trophy_unlock.mp3")
 s.preload="auto"
 s.volume=0.72
 q.r!==$&&A.bi()
@@ -92472,7 +92472,7 @@ A.xj(s,s,!0,s,new A.aq1(this),r,s,!0,t.z)},
 ask(){var s=this,r=null,q=t.p,p=A.c([B.iL,A.cL(A.tQ(B.WN,B.X9,s.gkg(s),A.pr(B.dS,B.bx,r,new A.cJ(A.fl(16),B.n),r)),56,r),B.fN,A.cL(A.tQ(B.WV,B.Xr,new A.ape(s),A.pr(B.jX,B.k,r,new A.cJ(A.fl(12),B.n),r)),54,r),B.fO],q)
 B.b.S(p,s.a_g())
 p.push(B.Ri)
-return A.e8(A.c([A.i8(A.k6(p,B.bh,r,!1),1),A.uY(!0,new A.by(B.GG,A.b3("Versione 1.40",r,r,r,B.Te,r,r,r),r),B.aD,!1)],q),B.a_,B.S,B.ab)},
+return A.e8(A.c([A.i8(A.k6(p,B.bh,r,!1),1),A.uY(!0,new A.by(B.GG,A.b3("Versione 1.41",r,r,r,B.Te,r,r,r),r),B.aD,!1)],q),B.a_,B.S,B.ab)},
 a_h(a,b,c,d,e){var s=null,r=A.fl(15),q=A.a9(31,c.p()>>>16&255,c.p()>>>8&255,c.p()&255),p=A.fl(15),o=new A.aW(A.a9(140,c.p()>>>16&255,c.p()>>>8&255,c.p()&255),1,B.u,-1)
 return A.i8(A.u2(!1,r,!0,A.eT(s,A.e8(A.c([A.b3(d+" "+a,s,s,s,B.mk,s,s,s),B.Rl,A.b3(b,s,s,s,A.fe(s,s,c,s,s,s,s,s,s,s,s,28,s,s,B.bi,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.a_,B.fs,B.ab),B.w,s,new A.cG(q,s,new A.da(o,o,o,o),p,s,s,B.ah),s,94,s,s,s,s,s),s,!0,s,s,s,s,s,s,s,s,s,e,s,s,s,s,s,s,s),1)},
 aw8(a,b,c,d){return this.a_h(a,b,c,d,null)},
