@@ -3,7 +3,7 @@
 // Cache offline per MANOVELLA. La rete viene sempre tentata per prima: quando
 // disponibile l'app riceve gli aggiornamenti, quando manca usa l'ultima
 // versione completa già aperta sul dispositivo.
-const CACHE_NAME = 'manovella-offline-v1';
+const CACHE_NAME = 'manovella-offline-v2';
 const APP_SHELL = [
   './',
   './index.html',
@@ -30,7 +30,15 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('activate', (event) => {
-  event.waitUntil(self.clients.claim());
+  event.waitUntil(
+    caches.keys().then((keys) =>
+      Promise.all(
+        keys
+          .filter((key) => key.startsWith('manovella-offline-') && key !== CACHE_NAME)
+          .map((key) => caches.delete(key))
+      )
+    ).then(() => self.clients.claim())
+  );
 });
 
 self.addEventListener('fetch', (event) => {
