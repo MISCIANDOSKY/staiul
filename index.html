@@ -34,16 +34,16 @@
   <title>MANOVELLA</title>
   <link rel="manifest" href="manifest.json?v=2">
   <style>
-    /* Su tutti gli iPhone con notch/Dynamic Island: sfondo uniforme anche
-       dietro la barra di stato, senza fascia bianca o sfumatura del browser. */
-    html, body { margin: 0; min-height: 100%; background: #16110c; }
+    /* Sfondo unico bianco: anche le aree non occupate dal video restano
+       identiche al fotogramma di caricamento su ogni schermo. */
+    html, body { margin: 0; min-height: 100%; background: #ffffff; }
     #startup-loader {
       position: fixed;
       z-index: 99999;
       inset: 0;
       display: grid;
       place-items: center;
-      background: #111827;
+      background: #ffffff;
       opacity: 1;
       transition: opacity 260ms ease;
     }
@@ -55,7 +55,7 @@
          proporzioni diverse e "cover" tagliava logo e testo ai lati. */
       object-fit: contain;
       object-position: center;
-      background: #111827;
+      background: #ffffff;
     }
   </style>
 </head>
