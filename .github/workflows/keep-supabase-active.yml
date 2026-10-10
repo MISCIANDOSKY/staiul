@@ -1,0 +1,23 @@
+name: Keep Supabase active
+
+on:
+  schedule:
+    - cron: '17 7,19 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping database safely
+        run: |
+          curl --fail --silent --show-error \
+            --request POST \
+            --header "apikey: sb_publishable_sgch0HA9NKrqMb9cY42Wtg_HHYl_Uep" \
+            --header "Authorization: Bearer sb_publishable_sgch0HA9NKrqMb9cY42Wtg_HHYl_Uep" \
+            --header "Content-Type: application/json" \
+            --data '{}' \
+            https://iuxcbgsjwnzwkeqkukkp.supabase.co/rest/v1/rpc/keep_project_active
