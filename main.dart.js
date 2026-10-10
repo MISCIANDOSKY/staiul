@@ -98143,7 +98143,7 @@ p=q?m:new A.aAt(n,a)
 o=n.f
 p=A.Dd(B.qb,A.aG(o==null?"Data di nascita":B.c.cE(B.e.k(A.bJ(o)),2,"0")+"/"+B.c.cE(B.e.k(A.aZ(o)),2,"0")+"/"+A.aK(o),m,m,m,m,m,m,m),p,m)
 o=q?m:n.gaoS()
-return A.aID(m,A.fT(new A.bf(B.i6,new A.e3(B.nZ,A.i0(new A.bf(B.i6,A.dV(A.b([B.ZL,B.d_,l,B.jj,s,B.c4,r,B.c4,p,B.jj,A.qE(q?B.os:B.ZC,o,m)],t.p),B.bK,B.K,B.be),m),m),m),m),m,m),m)}}
+return A.aID(m,A.fT(new A.bf(B.i6,new A.e3(B.nZ,A.i0(new A.bf(B.i6,A.dV(A.b([B.ZK,B.d_,l,B.jj,s,B.c4,r,B.c4,p,B.jj,A.qE(q?B.os:B.ZC,o,m)],t.p),B.bK,B.K,B.be),m),m),m),m),m,m),m)}}
 A.aAq.prototype={
 $0(){return this.a.r=!0},
 $S:0}
@@ -98555,10 +98555,10 @@ q.WX("\ud83d\udce4 Condividi Report","\ud83d\udcca Report Manovella ("+q.ga2W()+
 a5E(){var s=null,r=this.c
 r.toString
 A.pP(s,s,!0,s,new A.axU(this),r,s,!0,t.z)},
-ayy(){var s=this,r=null,q=t.p,p=A.b([B.d_,A.d5(A.qF(B.ZF,B.a_8,s.giP(s),A.nN(B.ef,B.bJ,r,r,new A.d2(A.fD(16),B.m),r)),56,r),B.cH,A.d5(A.qF(B.ZS,B.a_z,new A.awX(s),A.nN(B.kB,B.k,r,r,new A.d2(A.fD(12),B.m),r)),54,r),B.eM],q)
+ayy(){var s=this,r=null,q=t.p,p=A.b([B.d_,A.d5(A.qF(B.ZF,B.a_7,s.giP(s),A.nN(B.ef,B.bJ,r,r,new A.d2(A.fD(16),B.m),r)),56,r),B.cH,A.d5(A.qF(B.ZR,B.a_z,new A.awX(s),A.nN(B.kB,B.k,r,r,new A.d2(A.fD(12),B.m),r)),54,r),B.eM],q)
 B.b.M(p,s.a3a())
 p.push(B.BK)
-return A.dV(A.b([A.i5(A.jQ(p,B.bj,r,!1),1),A.t2(!0,new A.bf(B.Ir,A.aG("Versione 1.50",r,r,r,B.W_,r,r,r),r),B.aA,!1)],q),B.Y,B.K,B.ab)},
+return A.dV(A.b([A.i5(A.jQ(p,B.bj,r,!1),1),A.t2(!0,new A.bf(B.Ir,A.aG("Versione 1.51",r,r,r,B.W_,r,r,r),r),B.aA,!1)],q),B.Y,B.K,B.ab)},
 a3b(a,b,c,d,e){var s=null,r=A.fD(15),q=A.a9(31,c.p()>>>16&255,c.p()>>>8&255,c.p()&255),p=A.fD(15),o=new A.b4(A.a9(140,c.p()>>>16&255,c.p()>>>8&255,c.p()&255),1,B.x,-1)
 return A.i5(A.vE(!1,r,!0,A.fk(s,A.dV(A.b([A.aG(d+" "+a,s,s,s,B.n9,s,s,s),B.U5,A.aG(b,s,s,s,A.fL(s,s,c,s,s,s,s,s,s,s,s,28,s,s,B.aN,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.Y,B.fT,B.ab),B.z,s,new A.d_(q,s,new A.dt(o,o,o,o),p,s,s,B.an),s,94,s,s,s,s,s),s,!0,s,s,s,s,s,s,s,s,s,e,s,s,s,s,s,s,s),1)},
 aCN(a,b,c,d){return this.a3b(a,b,c,d,null)},
@@ -98576,7 +98576,7 @@ s.m(0,p+":00 - "+n+":00",q+1)}h=A.fD(12)
 q=t.fD
 q=A.a0(new A.a7(A.b(["Giorno","Sett.","Mese","Anno","Top Ore"],t.s),new A.axB(m),q),q.i("az.E"))
 p=t.p
-h=A.b([B.ZU,B.cH,A.fk(l,A.aPP(q,3,3),B.z,l,new A.d_(B.eg,l,l,h,l,l,B.an),l,l,l,B.Iw,l,l,l)],p)
+h=A.b([B.ZT,B.cH,A.fk(l,A.aPP(q,3,3),B.z,l,new A.d_(B.eg,l,l,h,l,l,B.an),l,l,l,B.Iw,l,l,l)],p)
 if(m.x!=="Top Ore"){i=A.fD(15)
 q=A.b([A.fG(A.b([A.kX(l,l,B.JA,l,l,new A.axC(m),l,l,l),A.hd(A.aG(m.ga2W(),l,l,l,B.Xm,l,l,l),l,l,new A.axD(m),l,l),A.kX(l,l,B.Jx,l,l,new A.axE(m),l,l,l)],p),B.Y,B.fU,B.ab,0),new A.dB(B.k4,l,l,A.d5(A.qF(B.qd,B.Cj,m.ga5s(),A.nN(B.kB,B.ag,l,B.pu,l,l)),32,l),l),B.eM,A.fG(A.b([m.aCN("Kcal Stimate",B.d.ak(j*3.2,1),B.p4,"\ud83d\udd25"),B.U_,m.a3b("Totale",""+k.length,B.ag,"\ud83d\udd27",m.ga5D())],p),B.Y,B.K,B.ab,0),B.eM],p)
 if(m.x==="Giorno")if(s.a===0)q.push(B.a_S)
@@ -98600,11 +98600,11 @@ aDC(){var s=null,r=new A.a7(B.lT,new A.axX(),t.u_).fm(0),q=this.e.a,p=t.p
 p=A.b([A.i0(new A.bf(B.bj,A.dV(A.b([A.aG("Completamento totale  "+q+" / 41",s,s,s,B.d2,s,s,s),B.cH,new A.Cs(10,q/41,s,B.ag,s,s,s,s)],p),B.bD,B.K,B.ab),s),s)],p)
 B.b.M(p,new A.eN(r,new A.axY(this),A.m(r).i("eN<1,f>")))
 return A.jQ(p,B.bj,s,!1)},
-a5n(){var s=this,r=null,q=A.i0(A.hH(!1,r,r,r,!0,r,r,r,!0,r,B.a_a,r,r,r,r,new A.axJ(s),!1,r,r,r,r,r,B.a_g,r,B.a_j,B.fB,r),r),p=A.i0(A.hH(!1,r,r,r,!0,r,r,r,!0,r,B.ZR,r,r,r,r,new A.axK(s),!1,r,r,r,r,r,B.a_p,r,B.a_i,B.fB,r),r),o=s.a.c.z
-return A.jQ(A.b([B.a_G,q,p,A.i0(A.hH(!1,r,r,r,!0,r,r,r,!0,r,B.JD,r,r,r,r,new A.axL(s),!1,r,r,r,r,r,A.aG(o==null?"Account MANOVELLA":o,r,r,r,r,r,r,r),r,B.a_t,B.JB,r),r)],t.p),B.bj,r,!1)},
+a5n(){var s=this,r=null,q=A.i0(A.hH(!1,r,r,r,!0,r,r,r,!0,r,B.a_9,r,r,r,r,new A.axJ(s),!1,r,r,r,r,r,B.a_f,r,B.a_i,B.fB,r),r),p=A.i0(A.hH(!1,r,r,r,!0,r,r,r,!0,r,B.ZQ,r,r,r,r,new A.axK(s),!1,r,r,r,r,r,B.a_o,r,B.a_h,B.fB,r),r),o=s.a.c.z
+return A.jQ(A.b([B.a_F,q,p,A.i0(A.hH(!1,r,r,r,!0,r,r,r,!0,r,B.JD,r,r,r,r,new A.axL(s),!1,r,r,r,r,r,A.aG(o==null?"Account MANOVELLA":o,r,r,r,r,r,r,r),r,B.a_r,B.JB,r),r)],t.p),B.bj,r,!1)},
 a46(){var s=null
-return A.jQ(A.b([B.ZK,A.i0(A.hH(!1,s,s,s,!0,s,s,s,!0,s,B.a_x,s,s,s,s,new A.awW(this),!1,s,s,s,s,s,B.ZI,s,B.ZZ,B.fB,s),s)],t.p),B.bj,s,!1)},
-a5T(){var s=null,r=this.f,q=A.i0(new A.Tv(r,new A.axV(this),B.a_H,B.a_O,B.ZT,s),s),p=A.aG(r?"Tocca per ascoltare il suono del trofeo":"Attiva prima il suono sblocco trofei",s,s,s,s,s,s,s)
+return A.jQ(A.b([B.ZJ,A.i0(A.hH(!1,s,s,s,!0,s,s,s,!0,s,B.a_x,s,s,s,s,new A.awW(this),!1,s,s,s,s,s,B.ZI,s,B.ZY,B.fB,s),s)],t.p),B.bj,s,!1)},
+a5T(){var s=null,r=this.f,q=A.i0(new A.Tv(r,new A.axV(this),B.a_G,B.a_O,B.ZS,s),s),p=A.aG(r?"Tocca per ascoltare il suono del trofeo":"Attiva prima il suono sblocco trofei",s,s,s,s,s,s,s)
 return A.jQ(A.b([B.a_M,q,A.i0(A.hH(!1,s,s,s,!0,s,s,s,!0,s,B.Jz,s,s,s,s,r?this.ganK():s,!1,s,s,s,s,s,p,s,B.a_D,s,s),s)],t.p),B.bj,s,!1)},
 vs(){var s=0,r=A.J(t.H),q=1,p=[],o=this,n,m,l
 var $async$vs=A.K(function(a,b){if(a===1){p.push(b)
@@ -98629,12 +98629,12 @@ break
 case 8:o.d=A.b([],t.BR)
 o.e=A.aJ(t.N)
 o.jq()
-o.c.a6(t.J).f.hg(A.fI(null,null,null,null,null,B.y,null,A.aG("Dati eliminati",null,null,null,null,null,null,null),null,B.bb,null,null,null,null,null,null,null,null,null,null))
+o.c.a6(t.J).f.hg(A.fI(null,null,null,null,null,B.y,null,A.aG("Dati del profilo eliminati",null,null,null,null,null,null,null),null,B.bb,null,null,null,null,null,null,null,null,null,null))
 case 3:return A.H(null,r)
 case 1:return A.G(p.at(-1),r)}})
 return A.I($async$vs,r)},
 avH(){var s=null
-return A.jQ(A.b([B.ZX,A.i0(A.hH(!1,s,s,s,!0,s,s,s,!0,s,B.a_C,s,s,s,s,new A.awP(this),!1,s,s,s,s,s,B.a_2,s,B.ZM,B.fB,s),s),A.i0(A.hH(!1,s,s,s,!0,s,s,s,!0,s,B.ZV,s,s,s,s,this.gacT(),!1,s,s,s,s,s,B.ZJ,s,B.a_r,B.fB,s),s)],t.p),B.bj,s,!1)},
+return A.jQ(A.b([B.ZW,A.i0(A.hH(!1,s,s,s,!0,s,s,s,!0,s,B.a_C,s,s,s,s,new A.awP(this),!1,s,s,s,s,s,B.a_1,s,B.ZL,B.fB,s),s),A.i0(A.hH(!1,s,s,s,!0,s,s,s,!0,s,B.ZU,s,s,s,s,this.gacT(),!1,s,s,s,s,s,B.a_v,s,B.a_J,B.fB,s),s)],t.p),B.bj,s,!1)},
 lU(){var s=0,r=A.J(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g
 var $async$lU=A.K(function(a,b){if(a===1){o.push(b)
 s=p}for(;;)switch(s){case 0:p=4
@@ -98760,10 +98760,10 @@ break
 case 7:case 1:return A.H(q,r)
 case 2:return A.G(o.at(-1),r)}})
 return A.I($async$ro,r)},
-azC(){var s,r,q,p,o,n,m=this,l=null,k=t.p,j=A.b([B.ZP,B.BL,B.a_P,B.he],k)
+azC(){var s,r,q,p,o,n,m=this,l=null,k=t.p,j=A.b([B.ZO,B.BL,B.a_P,B.he],k)
 if(m.at)j.push(A.qF(B.Jt,B.Ch,m.gady(),l))
 if(m.at)j.push(B.cH)
-j.push(A.Dd(B.Jy,B.ZO,m.gal0(),l))
+j.push(A.Dd(B.Jy,B.ZN,m.gal0(),l))
 j.push(B.BK)
 s=m.ax
 if(s.length===0)j.push(B.FG)
@@ -98781,7 +98781,7 @@ o=m.ay
 if(o.length===0)o=B.Qh
 else{n=A.W(o).i("a7<1,mk>")
 o=A.a0(new A.a7(o,new A.ax7(),n),n.i("az.E"))
-o=A.dV(o,B.Y,B.K,B.ab)}B.b.M(j,A.b([r,B.cH,s,B.he,B.a_u,B.d_,new A.wC(B.Lm,q,new A.ax8(m),l,t.eP),B.d_,p,B.d_,A.i0(o,l)],k))}return new A.DI(A.jQ(j,B.bj,l,!1),m.galh(),l)},
+o=A.dV(o,B.Y,B.K,B.ab)}B.b.M(j,A.b([r,B.cH,s,B.he,B.a_s,B.d_,new A.wC(B.Lm,q,new A.ax8(m),l,t.eP),B.d_,p,B.d_,A.i0(o,l)],k))}return new A.DI(A.jQ(j,B.bj,l,!1),m.galh(),l)},
 qi(a,b){var s=null,r=A.aG(a,s,s,s,s,s,s,s)
 return A.hH(!1,s,s,s,!0,s,s,s,!0,s,s,s,s,s,s,new A.axv(this,b),this.w===b,s,s,s,s,s,s,s,r,s,s)},
 K(a){var s,r,q,p,o,n=this,m=null,l=n.ayy(),k=A.jQ(n.a3a(),B.bj,m,!1),j=n.azC(),i=n.aDC(),h=A.aG("\ud83d\udcca Logica di calcolo incidenza",m,m,m,m,m,m,m),g=t.p
@@ -98792,7 +98792,7 @@ r=A.aG("\ud83c\udfc6 Trofei e achievement",m,m,m,m,m,m,m)
 r=A.a9I(A.b([A.aG("Ogni registrazione pu\xf2 sbloccare trofei per progressione, durata, mano, fasce orarie e giorni speciali.",m,m,m,m,m,m,m)],g),B.bj,r)
 q=A.aG("\ud83d\udcbe Backup e privacy",m,m,m,m,m,m,m)
 p=t.N
-o=A.ad(["home",l,"report",k,"leagues",j,"trofei",i,"info",A.jQ(A.b([B.a_w,h,s,r,A.a9I(A.b([A.aG("I dati restano nel browser di questo dispositivo. Esporta periodicamente il CSV dalle Impostazioni per conservarne una copia.",m,m,m,m,m,m,m)],g),B.bj,q)],g),B.bj,m,!1),"settings",n.a5n(),"general",n.a46(),"sounds",n.a5T(),"data",n.avH(),"backup",A.jQ(A.b([B.a_c,B.c4,B.a_F,B.jj,A.d5(A.qF(B.JE,B.ZB,n.ga45(),m),52,m),B.c4,A.d5(A.Dd(B.JL,B.a_A,n.gayF(),m),52,m)],g),B.bj,m,!1),"about",B.FJ],p,t.l7)
+o=A.ad(["home",l,"report",k,"leagues",j,"trofei",i,"info",A.jQ(A.b([B.a_w,h,s,r,A.a9I(A.b([A.aG("I dati restano nel browser di questo dispositivo. Esporta periodicamente il CSV dalle Impostazioni per conservarne una copia.",m,m,m,m,m,m,m)],g),B.bj,q)],g),B.bj,m,!1),"settings",n.a5n(),"general",n.a46(),"sounds",n.a5T(),"data",n.avH(),"backup",A.jQ(A.b([B.a_b,B.c4,B.a_E,B.jj,A.d5(A.qF(B.JE,B.ZB,n.ga45(),m),52,m),B.c4,A.d5(A.Dd(B.JL,B.a_A,n.gayF(),m),52,m)],g),B.bj,m,!1),"about",B.FJ],p,t.l7)
 p=A.ad(["home","\ud83d\udd27 MANOVELLA","report","\ud83d\udcca Report","leagues","\ud83c\udfc1 Leghe","trofei","\ud83c\udfc6 Trofei & Achievements","info","\ud83d\udca1 Centro informazioni","settings","\u2699\ufe0f Impostazioni","general","\u2699\ufe0f Generali","sounds","\ud83d\udd0a Suoni","data","\ud83d\uddc3\ufe0f Dati e archiviazione","backup","\ud83d\udcbe Gestione Backup","about","\u2139\ufe0f About"],p,p).h(0,n.w)
 p.toString
 p=A.aG(p,m,m,m,m,m,m,m)
@@ -98927,7 +98927,7 @@ $S:5}
 A.avO.prototype={
 $1(a){var s=null,r=this.b,q=A.aG(r.d,s,s,s,B.Y7,s,s,s)
 r=A.aG(r.b+"\n\n"+r.c,s,s,s,s,s,s,s)
-return A.pY(A.b([A.hd(B.ZE,s,s,new A.avN(this.a),s,s)],t.p),r,q,B.a__)},
+return A.pY(A.b([A.hd(B.ZE,s,s,new A.avN(this.a),s,s)],t.p),r,q,B.ZZ)},
 $S:68}
 A.avN.prototype={
 $0(){var s=this.a.c
@@ -98944,11 +98944,11 @@ n=A.Dd(B.qa,A.aG("Data: "+B.c.cE(B.e.k(A.bJ(n)),2,"0")+"/"+B.c.cE(B.e.k(A.aZ(n))
 s=this.c
 r=s.length===1?p:new A.axk(b,s)
 q=t.p
-r=A.b([n,B.c4,B.a_K,A.fG(A.b([A.qE(B.a_R,r,A.nN(B.ef,B.bJ,p,p,p,p)),new A.bf(B.It,A.aG(""+s.length,p,p,p,B.Wo,p,p,p),p),A.qE(B.a_3,new A.axl(o,b,s),A.nN(B.ef,B.bJ,p,p,p,p))],q),B.Y,B.fT,B.ab,0),B.cH],q)
+r=A.b([n,B.c4,B.a_K,A.fG(A.b([A.qE(B.a_R,r,A.nN(B.ef,B.bJ,p,p,p,p)),new A.bf(B.It,A.aG(""+s.length,p,p,p,B.Wo,p,p,p),p),A.qE(B.a_2,new A.axl(o,b,s),A.nN(B.ef,B.bJ,p,p,p,p))],q),B.Y,B.fT,B.ab,0),B.cH],q)
 n=new A.jP(s,A.W(s).i("jP<1>"))
 B.b.M(r,n.ghu(n).ea(0,new A.axm(b),t.l7))
 r=A.d5(A.aIJ(A.dV(r,B.bK,B.K,B.be),p),p,440)
-return A.pY(A.b([A.hd(B.hj,p,p,new A.axn(a),p,p),A.qF(B.JF,B.ZN,new A.axo(o,this.b,s,a),A.nN(B.ef,B.bJ,p,p,p,p))],q),r,p,B.a_f)},
+return A.pY(A.b([A.hd(B.hj,p,p,new A.axn(a),p,p),A.qF(B.JF,B.ZM,new A.axo(o,this.b,s,a),A.nN(B.ef,B.bJ,p,p,p,p))],q),r,p,B.a_e)},
 $S:134}
 A.axj.prototype={
 $0(){var s=0,r=A.J(t.H),q=this,p,o,n
@@ -99051,7 +99051,7 @@ m=new A.jP(r,A.W(r).i("jP<1>"))
 B.b.M(q,m.ghu(m).ea(0,new A.awI(b,r),t.l7))
 B.b.M(g,q)}g=A.aIJ(A.dV(g,B.Y,B.K,B.be),k)
 h=A.b([A.hd(B.hj,k,k,new A.awJ(a),k,k)],h)
-if(j)h.push(new A.Dc(!1,new A.awK(s,b,l.d),k,k,k,k,k,k,!1,k,!0,k,B.a_v,k))
+if(j)h.push(new A.Dc(!1,new A.awK(s,b,l.d),k,k,k,k,k,k,!1,k,!0,k,B.a_t,k))
 h.push(A.qE(A.aG(j?"Salva registrazioni":"Salva registrazione",k,k,k,k,k,k,k),new A.awL(s,l.b,j,l.d,a),k))
 return A.pY(h,g,k,i)},
 $S:134}
@@ -99156,7 +99156,7 @@ return new A.cQ(s,J.aM(o,4),r,q,p)},
 $S:597}
 A.awu.prototype={
 $1(a){var s=null,r=this.b,q=A.aG(r,s,s,s,s,s,s,s),p=this.c,o=A.fk(s,new A.Ey(p,s),B.z,s,new A.d_(B.bJ,s,s,A.fD(10),s,s,B.an),s,s,s,B.i5,s,s,390),n=this.a
-return A.pY(A.b([A.Dd(B.qe,B.a_N,new A.awr(n,p),s),A.qF(B.JI,B.a_1,new A.aws(n,r,p),A.nN(B.ef,B.bJ,s,s,s,s)),A.hd(B.Ci,s,s,new A.awt(n),s,s)],t.p),o,s,q)},
+return A.pY(A.b([A.Dd(B.qe,B.a_N,new A.awr(n,p),s),A.qF(B.JI,B.a_0,new A.aws(n,r,p),A.nN(B.ef,B.bJ,s,s,s,s)),A.hd(B.Ci,s,s,new A.awt(n),s,s)],t.p),o,s,q)},
 $S:68}
 A.awr.prototype={
 $0(){var s=null,r=window.navigator.clipboard
@@ -99193,10 +99193,10 @@ $S:133}
 A.axT.prototype={
 $2(a,b){var s=null,r=this.a,q=r.gMm(),p=A.W(q).i("ck<1>"),o=A.a0(new A.ck(q,p),p.i("az.E"))
 q=o.length
-if(q===0)r=B.a_m
+if(q===0)r=B.a_l
 else r=new A.Cv(new A.F0(new A.axR(r,o,b),q,!0,!0,!0,s),s,B.ad,!1,s,s,B.k5,!0,s,s,q,B.Z,s,s,B.y,B.aB,s)
 r=A.d5(r,s,360)
-return A.pY(A.b([A.hd(B.Ci,s,s,new A.axS(a),s,s)],t.p),r,s,B.a_6)},
+return A.pY(A.b([A.hd(B.Ci,s,s,new A.axS(a),s,s)],t.p),r,s,B.a_5)},
 $S:134}
 A.axR.prototype={
 $2(a,b){var s,r,q,p=null,o=this.b[b],n=A.fD(10),m=o.c
@@ -99307,7 +99307,7 @@ s.jq()},
 $S:8}
 A.avI.prototype={
 $1(a){var s=null,r=this.a
-return A.pY(A.b([A.hd(B.hj,s,s,new A.avG(r),s,s),A.qE(B.ZW,new A.avH(r),s)],t.p),B.a_k,s,B.a_E)},
+return A.pY(A.b([A.hd(B.hj,s,s,new A.avG(r),s,s),A.qE(B.ZV,new A.avH(r),s)],t.p),B.a_u,s,B.a_k)},
 $S:68}
 A.avG.prototype={
 $0(){var s=this.a.c
@@ -99363,7 +99363,7 @@ return null},
 $S:0}
 A.awi.prototype={
 $1(a){var s=null,r=this.a,q=A.p2(s,B.bE,!0,s,!0,B.y,s,A.un(),r,s,s,s,s,s,2,B.JT,B.Z,!0,s,!0,s,!1,s,B.bx,s,s,s,s,s,s,8,s,1,s,s,!1,"\u2022",s,s,s,s,s,!1,s,s,!1,s,!0,s,B.bL,s,s,s,s,s,s,s,s,s,s,s,s,!0,B.ah,s,B.UK,s,s,s,s)
-return A.pY(A.b([A.hd(B.hj,s,s,new A.awg(a),s,s),A.qE(B.a_q,new A.awh(a,r),s)],t.p),q,s,B.a_e)},
+return A.pY(A.b([A.hd(B.hj,s,s,new A.awg(a),s,s),A.qE(B.a_p,new A.awh(a,r),s)],t.p),q,s,B.a_d)},
 $S:68}
 A.awg.prototype={
 $0(){A.dH(this.a,!1).f4(null)
@@ -106297,8 +106297,8 @@ B.FG=new A.A8(null,B.Qf,null)
 B.FH=new A.A9(null,null,null,null,null,null)
 B.kG=new A.F(0.6,1,1,1,B.f)
 B.n9=new A.p(!0,B.kG,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_h=new A.aL("\ud83d\udd25 TOP 5 FASCE ORARIE",null,B.n9,null,null,null,null,null,null,null)
-B.FI=new A.iM(B.a2,null,null,B.a_h,null)
+B.a_g=new A.aL("\ud83d\udd25 TOP 5 FASCE ORARIE",null,B.n9,null,null,null,null,null,null,null)
+B.FI=new A.iM(B.a2,null,null,B.a_g,null)
 B.Iv=new A.ax(28,28,28,28)
 B.K=new A.ob(0,"start")
 B.be=new A.Q_(0,"min")
@@ -106308,21 +106308,21 @@ B.z=new A.uQ(0,"none")
 B.ag=new A.F(1,0.9607843137254902,0.6196078431372549,0.043137254901960784,B.f)
 B.aN=new A.hC(700)
 B.Ce=new A.p(!0,B.ag,null,null,null,null,23,B.aN,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_0=new A.aL("\u2139\ufe0f About",null,B.Ce,null,null,null,null,null,null,null)
+B.a__=new A.aL("\u2139\ufe0f About",null,B.Ce,null,null,null,null,null,null,null)
 B.he=new A.d4(null,16,null,null)
 B.Q=new A.F(0.7019607843137254,1,1,1,B.f)
 B.Ve=new A.p(!0,B.Q,null,null,null,null,null,null,null,null,null,null,1.6,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.a_Q=new A.aL("MANOVELLA\nRegistro personale di Manovellanza",null,B.Ve,B.b5,null,null,null,null,null,null)
 B.mW=new A.d4(null,24,null,null)
 B.Wn=new A.p(!0,B.Q,null,null,null,null,null,null,null,null,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_s=new A.aL("Questa applicazione nasce dalla passione per la programmazione e dall\u2019idea di creare strumenti semplici, utili e piacevoli da usare.",null,B.Wn,B.b5,null,null,null,null,null,null)
+B.a_q=new A.aL("Questa applicazione nasce dalla passione per la programmazione e dall\u2019idea di creare strumenti semplici, utili e piacevoli da usare.",null,B.Wn,B.b5,null,null,null,null,null,null)
 B.VI=new A.p(!0,B.ag,null,null,null,null,13,B.aN,null,0.5,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_n=new A.aL("Powered by MISCIANDOSKY",null,B.VI,null,null,null,null,null,null,null)
+B.a_m=new A.aL("Powered by MISCIANDOSKY",null,B.VI,null,null,null,null,null,null,null)
 B.cH=new A.d4(null,10,null,null)
 B.kF=new A.F(0.3843137254901961,1,1,1,B.f)
 B.Yt=new A.p(!0,B.kF,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_J=new A.aL("Versione 1.50",null,B.Yt,null,null,null,null,null,null,null)
-B.M2=s([B.a_0,B.he,B.a_Q,B.mW,B.a_s,B.mW,B.a_n,B.cH,B.a_J],t.p)
+B.a_I=new A.aL("Versione 1.51",null,B.Yt,null,null,null,null,null,null,null)
+B.M2=s([B.a__,B.he,B.a_Q,B.mW,B.a_q,B.mW,B.a_m,B.cH,B.a_I],t.p)
 B.GU=new A.uX(B.ad,B.K,B.be,B.Y,null,B.c7,null,0,B.M2,null)
 B.Qe=new A.bf(B.Iv,B.GU,null)
 B.FJ=new A.iM(B.a2,null,null,B.Qe,null)
@@ -106448,8 +106448,8 @@ B.ab=new A.Q_(1,"max")
 B.bD=new A.qq(0,"start")
 B.a_B=new A.aL("\ud83d\udd27 MANOVELLA",null,B.Ce,null,null,null,null,null,null,null)
 B.d_=new A.d4(null,8,null,null)
-B.ZQ=new A.aL("Registro personale di Manovellanza",null,null,null,null,null,null,null,null,null)
-B.KZ=s([B.a_B,B.d_,B.ZQ],t.p)
+B.ZP=new A.aL("Registro personale di Manovellanza",null,null,null,null,null,null,null,null,null)
+B.KZ=s([B.a_B,B.d_,B.ZP],t.p)
 B.GT=new A.uX(B.ad,B.K,B.ab,B.bD,null,B.c7,null,0,B.KZ,null)
 B.hU=new A.iP(0,"cut")
 B.hV=new A.iP(1,"copy")
@@ -107017,14 +107017,14 @@ B.a2N=new A.hP(0.925,0.5)
 B.a2H=new A.hP(0.9625,0.75)
 B.a2I=new A.hP(1,1)
 B.Ll=s([B.a2G,B.a2L,B.a2O,B.a2Q,B.a2M,B.a2K,B.a2J,B.a2P,B.a2N,B.a2H,B.a2I],A.aF("E<hP>"))
-B.a_4=new A.aL("Giorno",null,null,null,null,null,null,null,null,null)
-B.Ee=new A.jx("day",B.a_4,t.Zx)
-B.a_d=new A.aL("Sett.",null,null,null,null,null,null,null,null,null)
-B.Eh=new A.jx("week",B.a_d,t.Zx)
-B.a_9=new A.aL("Mese",null,null,null,null,null,null,null,null,null)
-B.Ef=new A.jx("month",B.a_9,t.Zx)
-B.a_7=new A.aL("Anno",null,null,null,null,null,null,null,null,null)
-B.Eg=new A.jx("year",B.a_7,t.Zx)
+B.a_3=new A.aL("Giorno",null,null,null,null,null,null,null,null,null)
+B.Ee=new A.jx("day",B.a_3,t.Zx)
+B.a_c=new A.aL("Sett.",null,null,null,null,null,null,null,null,null)
+B.Eh=new A.jx("week",B.a_c,t.Zx)
+B.a_8=new A.aL("Mese",null,null,null,null,null,null,null,null,null)
+B.Ef=new A.jx("month",B.a_8,t.Zx)
+B.a_6=new A.aL("Anno",null,null,null,null,null,null,null,null,null)
+B.Eg=new A.jx("year",B.a_6,t.Zx)
 B.Lm=s([B.Ee,B.Eh,B.Ef,B.Eg],A.aF("E<jx<j>>"))
 B.d0=new A.mV(0,"left")
 B.eO=new A.mV(1,"right")
@@ -107121,10 +107121,10 @@ B.En=new A.nu()
 B.j2=new A.Sk(1,"page")
 B.j3=new A.f5(B.aT,B.j2)
 B.Md=s([B.En,B.j3],A.aF("E<be>"))
-B.a_l=new A.aL("\ud83d\udd90\ufe0f Destra",null,null,null,null,null,null,null,null,null)
-B.HH=new A.et("Destra",B.a_l,B.bq,null,t.b7)
-B.a_I=new A.aL("\ud83e\udd1a Sinistra",null,null,null,null,null,null,null,null,null)
-B.HE=new A.et("Sinistra",B.a_I,B.bq,null,t.b7)
+B.a_j=new A.aL("\ud83d\udd90\ufe0f Destra",null,null,null,null,null,null,null,null,null)
+B.HH=new A.et("Destra",B.a_j,B.bq,null,t.b7)
+B.a_H=new A.aL("\ud83e\udd1a Sinistra",null,null,null,null,null,null,null,null,null)
+B.HE=new A.et("Sinistra",B.a_H,B.bq,null,t.b7)
 B.Mf=s([B.HH,B.HE],t.FG)
 B.Mn=s([],t.QP)
 B.qD=s([],t.F)
@@ -107146,10 +107146,10 @@ B.Mi=s([],t.p)
 B.Mh=s([],t.t)
 B.qE=s([],t.ee)
 B.Mr=s([],t.XS)
-B.ZY=new A.aL("\ud83d\udd90\ufe0f Mano Destra",null,null,null,null,null,null,null,null,null)
-B.HG=new A.et("Destra",B.ZY,B.bq,null,t.b7)
-B.a_b=new A.aL("\ud83e\udd1a Mano Sinistra",null,null,null,null,null,null,null,null,null)
-B.HF=new A.et("Sinistra",B.a_b,B.bq,null,t.b7)
+B.ZX=new A.aL("\ud83d\udd90\ufe0f Mano Destra",null,null,null,null,null,null,null,null,null)
+B.HG=new A.et("Destra",B.ZX,B.bq,null,t.b7)
+B.a_a=new A.aL("\ud83e\udd1a Mano Sinistra",null,null,null,null,null,null,null,null,null)
+B.HF=new A.et("Sinistra",B.a_a,B.bq,null,t.b7)
 B.Mt=s([B.HG,B.HF],t.FG)
 B.Mu=s(["S","M","T","W","T","F","S"],t.s)
 B.iK=new A.h(0,2)
@@ -108301,11 +108301,11 @@ B.Qc=new A.QC(1,"end")
 B.x0=new A.QD(0,"nearestOverlay")
 B.Qd=new A.QD(1,"rootOverlay")
 B.Ii=new A.ax(10,10,10,10)
-B.a_5=new A.aL("Non ci sono ancora dati.",null,null,null,null,null,null,null,null,null)
-B.FL=new A.iM(B.a2,null,null,B.a_5,null)
+B.a_4=new A.aL("Non ci sono ancora dati.",null,null,null,null,null,null,null,null,null)
+B.FL=new A.iM(B.a2,null,null,B.a_4,null)
 B.Qg=new A.bf(B.Ii,B.FL,null)
-B.a_o=new A.aL("Ancora nessuna registrazione nel periodo.",null,null,B.b5,null,null,null,null,null,null)
-B.Qh=new A.bf(B.bL,B.a_o,null)
+B.a_n=new A.aL("Ancora nessuna registrazione nel periodo.",null,null,B.b5,null,null,null,null,null,null)
+B.Qh=new A.bf(B.bL,B.a_n,null)
 B.Qi=new A.Dh(null)
 B.c3=new A.QK(0,"fill")
 B.b4=new A.QK(1,"stroke")
@@ -109073,47 +109073,47 @@ B.ZG=new A.aL("Crea",null,null,null,null,null,null,null,null,null)
 B.WY=new A.p(!0,B.ag,null,null,null,null,28,B.aN,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.ZH=new A.aL("MANOVELLA",null,B.WY,B.b5,null,null,null,null,null,null)
 B.ZI=new A.aL("Gestisci i suoni dell\u2019app",null,null,null,null,null,null,null,null,null)
-B.ZJ=new A.aL("Rimuove registrazioni e trofei",null,null,null,null,null,null,null,null,null)
-B.ZK=new A.aL("\u2699\ufe0f Generali",null,B.d3,null,null,null,null,null,null,null)
+B.ZJ=new A.aL("\u2699\ufe0f Generali",null,B.d3,null,null,null,null,null,null,null)
 B.Cc=new A.p(!0,B.ag,null,null,null,null,24,B.aN,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.ZL=new A.aL("Completa il tuo profilo",null,B.Cc,B.b5,null,null,null,null,null,null)
-B.ZM=new A.aL("Backup dei dati",null,null,null,null,null,null,null,null,null)
-B.ZN=new A.aL("Salva Registrazioni",null,null,null,null,null,null,null,null,null)
-B.ZO=new A.aL("Entra con codice invito",null,null,null,null,null,null,null,null,null)
-B.ZP=new A.aL("\ud83c\udfc1 Leghe",null,B.Cc,null,null,null,null,null,null,null)
+B.ZK=new A.aL("Completa il tuo profilo",null,B.Cc,B.b5,null,null,null,null,null,null)
+B.ZL=new A.aL("Backup dei dati",null,null,null,null,null,null,null,null,null)
+B.ZM=new A.aL("Salva Registrazioni",null,null,null,null,null,null,null,null,null)
+B.ZN=new A.aL("Entra con codice invito",null,null,null,null,null,null,null,null,null)
+B.ZO=new A.aL("\ud83c\udfc1 Leghe",null,B.Cc,null,null,null,null,null,null,null)
 B.eR=new A.p(!0,null,null,null,null,null,22,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.ZR=new A.aL("\ud83d\uddc3\ufe0f",null,B.eR,null,null,null,null,null,null,null)
-B.ZS=new A.aL("\ud83d\udcc5",null,null,null,null,null,null,null,null,null)
-B.ZT=new A.aL("\ud83c\udfc6",null,B.eR,null,null,null,null,null,null,null)
-B.ZU=new A.aL("\ud83d\udcca Sezione Report",null,B.d3,null,null,null,null,null,null,null)
-B.ZV=new A.aL("\ud83d\uddd1\ufe0f",null,B.eR,null,null,null,null,null,null,null)
-B.ZW=new A.aL("Elimina",null,null,null,null,null,null,null,null,null)
-B.ZX=new A.aL("\ud83d\uddc3\ufe0f Dati e archiviazione",null,B.d3,null,null,null,null,null,null,null)
-B.ZZ=new A.aL("Suoni",null,null,null,null,null,null,null,null,null)
-B.a__=new A.aL("\ud83c\udfc6 Trofeo sbloccato!",null,null,null,null,null,null,null,null,null)
-B.a_1=new A.aL("Invia",null,null,null,null,null,null,null,null,null)
-B.a_2=new A.aL("Esporta o importa le registrazioni CSV",null,null,null,null,null,null,null,null,null)
-B.a_3=new A.aL("+",null,null,null,null,null,null,null,null,null)
+B.ZQ=new A.aL("\ud83d\uddc3\ufe0f",null,B.eR,null,null,null,null,null,null,null)
+B.ZR=new A.aL("\ud83d\udcc5",null,null,null,null,null,null,null,null,null)
+B.ZS=new A.aL("\ud83c\udfc6",null,B.eR,null,null,null,null,null,null,null)
+B.ZT=new A.aL("\ud83d\udcca Sezione Report",null,B.d3,null,null,null,null,null,null,null)
+B.ZU=new A.aL("\ud83d\uddd1\ufe0f",null,B.eR,null,null,null,null,null,null,null)
+B.ZV=new A.aL("Elimina",null,null,null,null,null,null,null,null,null)
+B.ZW=new A.aL("\ud83d\uddc3\ufe0f Dati e archiviazione",null,B.d3,null,null,null,null,null,null,null)
+B.ZY=new A.aL("Suoni",null,null,null,null,null,null,null,null,null)
+B.ZZ=new A.aL("\ud83c\udfc6 Trofeo sbloccato!",null,null,null,null,null,null,null,null,null)
+B.a_0=new A.aL("Invia",null,null,null,null,null,null,null,null,null)
+B.a_1=new A.aL("Esporta o importa le registrazioni CSV",null,null,null,null,null,null,null,null,null)
+B.a_2=new A.aL("+",null,null,null,null,null,null,null,null,null)
 B.VO=new A.p(!0,B.ag,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_6=new A.aL("\ud83d\udccb Dettaglio Registrazioni",null,B.VO,null,null,null,null,null,null,null)
-B.a_8=new A.aL("Registra Manovella Ora",null,null,null,null,null,null,null,null,null)
-B.a_a=new A.aL("\u2699\ufe0f",null,B.eR,null,null,null,null,null,null,null)
-B.a_c=new A.aL("\ud83d\udcbe Gestione Backup",null,B.d3,null,null,null,null,null,null,null)
-B.a_e=new A.aL("Entra in una lega",null,null,null,null,null,null,null,null,null)
-B.a_f=new A.aL("Registrazione Manuale",null,B.jt,null,null,null,null,null,null,null)
-B.a_g=new A.aL("Suoni e preferenze dell\u2019app",null,null,null,null,null,null,null,null,null)
-B.a_i=new A.aL("Dati e archiviazione",null,null,null,null,null,null,null,null,null)
-B.a_j=new A.aL("Generali",null,null,null,null,null,null,null,null,null)
-B.a_k=new A.aL("Le registrazioni e i trofei verranno rimossi dal browser.",null,null,null,null,null,null,null,null,null)
-B.a_m=new A.aL("Nessuna attivit\xe0 nel periodo selezionato.",null,null,null,null,null,null,null,null,null)
+B.a_5=new A.aL("\ud83d\udccb Dettaglio Registrazioni",null,B.VO,null,null,null,null,null,null,null)
+B.a_7=new A.aL("Registra Manovella Ora",null,null,null,null,null,null,null,null,null)
+B.a_9=new A.aL("\u2699\ufe0f",null,B.eR,null,null,null,null,null,null,null)
+B.a_b=new A.aL("\ud83d\udcbe Gestione Backup",null,B.d3,null,null,null,null,null,null,null)
+B.a_d=new A.aL("Entra in una lega",null,null,null,null,null,null,null,null,null)
+B.a_e=new A.aL("Registrazione Manuale",null,B.jt,null,null,null,null,null,null,null)
+B.a_f=new A.aL("Suoni e preferenze dell\u2019app",null,null,null,null,null,null,null,null,null)
+B.a_h=new A.aL("Dati e archiviazione",null,null,null,null,null,null,null,null,null)
+B.a_i=new A.aL("Generali",null,null,null,null,null,null,null,null,null)
+B.a_k=new A.aL("Eliminare tutti i dati del profilo?",null,null,null,null,null,null,null,null,null)
+B.a_l=new A.aL("Nessuna attivit\xe0 nel periodo selezionato.",null,null,null,null,null,null,null,null,null)
 B.Ch=new A.aL("Crea una lega",null,null,null,null,null,null,null,null,null)
-B.a_p=new A.aL("Backup, importazione ed eliminazione dati",null,null,null,null,null,null,null,null,null)
-B.a_q=new A.aL("Entra",null,null,null,null,null,null,null,null,null)
-B.a_r=new A.aL("Elimina dati locali",null,null,null,null,null,null,null,null,null)
-B.a_t=new A.aL("Account",null,null,null,null,null,null,null,null,null)
+B.a_o=new A.aL("Backup, importazione ed eliminazione dati",null,null,null,null,null,null,null,null,null)
+B.a_p=new A.aL("Entra",null,null,null,null,null,null,null,null,null)
+B.a_r=new A.aL("Account",null,null,null,null,null,null,null,null,null)
 B.Wd=new A.p(!0,B.ag,null,null,null,null,20,B.aN,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.a_u=new A.aL("\ud83c\udfc6 Classifica",null,B.Wd,null,null,null,null,null,null,null)
-B.a_v=new A.aL("Aggiungi manovella",null,null,null,null,null,null,null,null,null)
+B.a_s=new A.aL("\ud83c\udfc6 Classifica",null,B.Wd,null,null,null,null,null,null,null)
+B.a_t=new A.aL("Aggiungi manovella",null,null,null,null,null,null,null,null,null)
+B.a_u=new A.aL("Le registrazioni e i trofei verranno eliminati dal dispositivo e dal tuo profilo online. L\u2019account e i dati di accesso resteranno attivi.",null,null,null,null,null,null,null,null,null)
+B.a_v=new A.aL("Rimuove registrazioni e trofei dal dispositivo e dal profilo online",null,null,null,null,null,null,null,null,null)
 B.a_w=new A.aL("\ud83d\udca1 Centro informazioni",null,B.d3,null,null,null,null,null,null,null)
 B.a_x=new A.aL("\ud83d\udd0a",null,B.eR,null,null,null,null,null,null,null)
 B.a_y=new A.aL("Codice invito: ",null,null,null,null,null,null,null,null,null)
@@ -109124,10 +109124,10 @@ B.XO=new A.p(!0,null,null,null,null,null,11,null,null,null,null,null,null,null,n
 B.Cj=new A.aL("Condividi",null,B.XO,null,null,null,null,null,null,null)
 B.a_C=new A.aL("\ud83d\udcbe",null,B.eR,null,null,null,null,null,null,null)
 B.a_D=new A.aL("Prova suono",null,null,null,null,null,null,null,null,null)
-B.a_E=new A.aL("Eliminare tutti i dati?",null,null,null,null,null,null,null,null,null)
-B.a_F=new A.aL("Esporta un file CSV con tutte le registrazioni oppure ripristina un backup precedente.",null,null,null,null,null,null,null,null,null)
-B.a_G=new A.aL("\u2699\ufe0f Impostazioni",null,B.d3,null,null,null,null,null,null,null)
-B.a_H=new A.aL("Suono sblocco trofei",null,null,null,null,null,null,null,null,null)
+B.a_E=new A.aL("Esporta un file CSV con tutte le registrazioni oppure ripristina un backup precedente.",null,null,null,null,null,null,null,null,null)
+B.a_F=new A.aL("\u2699\ufe0f Impostazioni",null,B.d3,null,null,null,null,null,null,null)
+B.a_G=new A.aL("Suono sblocco trofei",null,null,null,null,null,null,null,null,null)
+B.a_J=new A.aL("Elimina tutti i dati del profilo",null,null,null,null,null,null,null,null,null)
 B.a_K=new A.aL("Quante manovelle hai fatto?",null,B.n9,null,null,null,null,null,null,null)
 B.a_L=new A.aL("Modifica email",null,null,null,null,null,null,null,null,null)
 B.a_M=new A.aL("\ud83d\udd0a Suoni",null,B.d3,null,null,null,null,null,null,null)
