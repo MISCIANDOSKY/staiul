@@ -35,8 +35,20 @@ if (!window._flutter) {
 }
 _flutter.buildConfig = {"engineRevision":"0cd610717bde95fd88343c64f81c11ba4e5c0010","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
 
+
+// Dopo "Cerca aggiornamento" il token nell'URL forza il caricamento dei file
+// appena pubblicati, invece della copia che il browser può conservare per
+// qualche minuto nella cache HTTP.
+const updateToken = new URLSearchParams(window.location.search).get('update') ||
+  window.sessionStorage.getItem('manovella_force_update');
+if (updateToken) {
+  _flutter.buildConfig.builds.forEach((build) => {
+    build.mainJsPath = `main.dart.js?update=${encodeURIComponent(updateToken)}`;
+  });
+}
+
 _flutter.loader.load({
   serviceWorkerSettings: {
-    serviceWorkerVersion: "1974894821" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
+    serviceWorkerVersion: "3603226229" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
   }
 });

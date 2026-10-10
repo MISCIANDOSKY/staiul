@@ -84,6 +84,11 @@
       video.addEventListener('ended', () => { videoDone = true; closeLoader(); });
       video.addEventListener('error', () => { videoDone = true; closeLoader(); });
       window.addEventListener('flutter-first-frame', () => { appReady = true; closeLoader(); });
+      // Il file nuovo è stato caricato: il prossimo avvio torna al percorso
+      // normale e non conserva inutilmente il token di aggiornamento.
+      window.addEventListener('flutter-first-frame', () => {
+        window.sessionStorage.removeItem('manovella_force_update');
+      }, { once: true });
       video.play().catch(() => { videoDone = true; closeLoader(); });
       // Protezione nel caso un browser non invii l'evento di Flutter.
       setTimeout(() => { appReady = true; videoDone = true; closeLoader(); }, 9000);
@@ -97,6 +102,17 @@
     For more details:
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
-  <script src="flutter_bootstrap.js" async></script>
+  <script>
+    // Il parametro viene aggiunto solo dopo un aggiornamento richiesto
+    // dall'utente, per evitare la cache del bootstrap sul primo riavvio.
+    (() => {
+      const token = new URLSearchParams(window.location.search).get('update') ||
+        window.sessionStorage.getItem('manovella_force_update');
+      const script = document.createElement('script');
+      script.src = `flutter_bootstrap.js${token ? `?update=${encodeURIComponent(token)}` : ''}`;
+      script.async = true;
+      document.body.appendChild(script);
+    })();
+  </script>
 </body>
 </html>
