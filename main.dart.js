@@ -109259,7 +109259,7 @@ case 6:case 1:return A.x(q,r)
 case 2:return A.w(o.at(-1),r)}})
 return A.y($async$y4,r)},
 Tv(a){var s=a.toLowerCase()
-if(B.c.m(s,"signups not allowed")||B.c.m(s,"otp_disabled")||B.c.m(s,"signup is disabled"))return"Le nuove registrazioni sono momentaneamente disattivate. Riprova tra poco."
+if(B.c.m(s,"signups not allowed")||B.c.m(s,"otp_disabled")||B.c.m(s,"signup is disabled"))return this.y?"Le nuove registrazioni sono momentaneamente non disponibili. Riprova tra poco.":"Non esiste ancora un account con questa email. Premi \u201cRegistrati\u201d per crearlo."
 if(B.c.m(s,"token has expired")||B.c.m(s,"token is invalid")||B.c.m(s,"otp expired")||B.c.m(s,"otp invalid"))return"Il codice non \xe8 valido oppure \xe8 scaduto. Richiedine uno nuovo e riprova."
 if(B.c.m(s,"email rate limit")||B.c.m(s,"too many requests"))return"Hai richiesto troppi codici. Attendi qualche minuto e riprova."
 if(B.c.m(s,"email not confirmed"))return"Non \xe8 stato possibile verificare l\u2019email. Richiedi un nuovo codice."
@@ -109904,7 +109904,7 @@ A.is(s,s,!0,s,new A.aHk(this),r,s,!0,t.z)},
 aCG(){var s=this,r=null,q=t.p,p=A.b([B.cH,A.d7(A.mM(B.aga,B.agE,s.gjd(s),A.kf(B.fd,B.cb,r,r,new A.dg(A.h_(16),B.r),r)),56,r),B.dt,A.d7(A.mM(B.agn,B.aho,new A.aGj(s),A.kf(B.mG,B.l,r,r,new A.dg(A.h_(12),B.r),r)),54,r),B.eK],q)
 B.b.O(p,s.a60())
 p.push(B.K1)
-return A.dT(A.b([A.hr(A.jv(p,B.by,r,!1),1),A.pw(!0,new A.bk(B.R_,A.au("Versione 1.62",r,r,r,B.act,r,r,r),r),B.ao,!1)],q),B.a1,B.N,B.am)},
+return A.dT(A.b([A.hr(A.jv(p,B.by,r,!1),1),A.pw(!0,new A.bk(B.R_,A.au("Versione 1.63",r,r,r,B.act,r,r,r),r),B.ao,!1)],q),B.a1,B.N,B.am)},
 a61(a,b,c,d,e){var s=null,r=A.h_(15),q=A.a6(31,c.q()>>>16&255,c.q()>>>8&255,c.q()&255),p=A.h_(15),o=new A.aZ(A.a6(140,c.q()>>>16&255,c.q()>>>8&255,c.q()&255),1,B.v,-1)
 return A.hr(A.rL(!1,r,!0,A.fK(s,A.dT(A.b([A.au(d+" "+a,s,s,s,B.pr,s,s,s),B.aaC,A.au(b,s,s,s,A.ha(s,s,c,s,s,s,s,s,s,s,s,28,s,s,B.b_,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.a1,B.i4,B.am),B.E,s,new A.de(q,s,new A.dJ(o,o,o,o),p,s,s,B.aD),s,94,s,s,s,s,s),s,!0,s,s,s,s,s,s,s,s,s,e,s,s,s,s,s,s,s),1)},
 aGV(a,b,c,d){return this.a61(a,b,c,d,null)},
@@ -118251,7 +118251,7 @@ B.ah1=new A.am("Powered by MISCIANDOSKY",null,B.acb,null,null,null,null,null,nul
 B.dt=new A.di(null,10,null,null)
 B.jd=new A.K(0.3843137254901961,1,1,1,B.f)
 B.aeY=new A.q(!0,B.jd,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.ah2=new A.am("Versione 1.62",null,B.aeY,null,null,null,null,null,null,null)
+B.ah2=new A.am("Versione 1.63",null,B.aeY,null,null,null,null,null,null,null)
 B.Uv=s([B.agw,B.ix,B.ahK,B.pb,B.ah8,B.pb,B.ah1,B.dt,B.ah2],t.p)
 B.Pl=new A.vH(B.aj,B.N,B.ba,B.a1,null,B.cN,null,0,B.Uv,null)
 B.a6F=new A.bk(B.R3,B.Pl,null)
