@@ -110393,7 +110393,7 @@ j=t.a.a(B.a7.jW(0,A.k_(A.jU(g.e)).cN(0,g.w),null))
 g=J.aA(j,"release")
 i=g==null?null:J.dU(g)
 if(i==null||i.length===0)throw A.e(B.nQ)
-if(i==="20261014-1000"){if(!a)m.c.a3(t.J).f.ec(A.dj(null,null,null,null,null,B.p,null,A.au("Ultima versione gi\xe0 installata.",null,null,null,null,null,null,null),null,B.ak,null,null,null,null,null,null,null,null,null,null))
+if(i==="20261014-1130"){if(!a)m.c.a3(t.J).f.ec(A.dj(null,null,null,null,null,B.p,null,A.au("Ultima versione gi\xe0 installata.",null,null,null,null,null,null,null),null,B.ak,null,null,null,null,null,null,null,null,null,null))
 n=[1]
 s=5
 break}g=m.c
