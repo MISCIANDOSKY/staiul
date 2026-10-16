@@ -110275,7 +110275,7 @@ A.is(s,s,!0,s,new A.aHN(this),r,s,!0,t.z)},
 aD7(){var s=this,r=null,q=t.p,p=A.b([B.cH,A.d7(A.mN(B.agi,B.agN,s.gjg(s),A.kg(B.fd,B.cb,r,r,new A.dg(A.h1(16),B.r),r)),56,r),B.dt,A.d7(A.mN(B.agv,B.ahw,new A.aGM(s),A.kg(B.mJ,B.l,r,r,new A.dg(A.h1(12),B.r),r)),54,r),B.eK],q)
 B.b.O(p,s.a6h())
 p.push(B.K8)
-return A.dW(A.b([A.hs(A.jw(p,B.by,r,!1),1),A.pA(!0,new A.bk(B.R3,A.au("Versione 1.66",r,r,r,B.acB,r,r,r),r),B.ao,!1)],q),B.a1,B.N,B.am)},
+return A.dW(A.b([A.hs(A.jw(p,B.by,r,!1),1),A.pA(!0,new A.bk(B.R3,A.au("Versione 1.67",r,r,r,B.acB,r,r,r),r),B.ao,!1)],q),B.a1,B.N,B.am)},
 a6i(a,b,c,d,e){var s=null,r=A.h1(15),q=A.a6(31,c.q()>>>16&255,c.q()>>>8&255,c.q()&255),p=A.h1(15),o=new A.aZ(A.a6(140,c.q()>>>16&255,c.q()>>>8&255,c.q()&255),1,B.v,-1)
 return A.hs(A.rP(!1,r,!0,A.fM(s,A.dW(A.b([A.au(d+" "+a,s,s,s,B.pt,s,s,s),B.aaK,A.au(b,s,s,s,A.hb(s,s,c,s,s,s,s,s,s,s,s,28,s,s,B.b_,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.a1,B.i4,B.am),B.E,s,new A.de(q,s,new A.dL(o,o,o,o),p,s,s,B.aD),s,94,s,s,s,s,s),s,!0,s,s,s,s,s,s,s,s,s,e,s,s,s,s,s,s,s),1)},
 aHp(a,b,c,d){return this.a6i(a,b,c,d,null)},
@@ -110393,7 +110393,7 @@ j=t.a.a(B.a7.jW(0,A.k_(A.jU(g.e)).cN(0,g.w),null))
 g=J.aA(j,"release")
 i=g==null?null:J.dU(g)
 if(i==null||i.length===0)throw A.e(B.nQ)
-if(i==="20261014-1130"){if(!a)m.c.a3(t.J).f.ec(A.dj(null,null,null,null,null,B.p,null,A.au("Ultima versione gi\xe0 installata.",null,null,null,null,null,null,null),null,B.ak,null,null,null,null,null,null,null,null,null,null))
+if(i==="20261016-1400"){if(!a)m.c.a3(t.J).f.ec(A.dj(null,null,null,null,null,B.p,null,A.au("Ultima versione gi\xe0 installata.",null,null,null,null,null,null,null),null,B.ak,null,null,null,null,null,null,null,null,null,null))
 n=[1]
 s=5
 break}g=m.c
@@ -118758,7 +118758,7 @@ B.ah9=new A.an("Powered by MISCIANDOSKY",null,B.acj,null,null,null,null,null,nul
 B.dt=new A.di(null,10,null,null)
 B.jd=new A.K(0.3843137254901961,1,1,1,B.f)
 B.af5=new A.q(!0,B.jd,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.aha=new A.an("Versione 1.66",null,B.af5,null,null,null,null,null,null,null)
+B.aha=new A.an("Versione 1.67",null,B.af5,null,null,null,null,null,null,null)
 B.UA=s([B.agF,B.ix,B.ahS,B.pd,B.ahg,B.pd,B.ah9,B.dt,B.aha],t.p)
 B.Pp=new A.vK(B.aj,B.N,B.ba,B.a1,null,B.cN,null,0,B.UA,null)
 B.a6M=new A.bk(B.R7,B.Pp,null)
