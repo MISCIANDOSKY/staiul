@@ -33,7 +33,7 @@ addEventListener("message", eventListener);
 if (!window._flutter) {
   window._flutter = {};
 }
-_flutter.buildConfig = {"engineRevision":"0cd610717bde95fd88343c64f81c11ba4e5c0010","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
+_flutter.buildConfig = {"engineRevision":"0cd610717bde95fd88343c64f81c11ba4e5c0010","builds":[{"compileTarget":"dart2wasm","renderer":"skwasm","mainWasmPath":"main.dart.wasm","jsSupportRuntimePath":"main.dart.mjs"},{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
 
 
 // Dopo "Cerca aggiornamento" il token nell'URL forza il caricamento dei file
@@ -43,12 +43,21 @@ const updateToken = new URLSearchParams(window.location.search).get('update') ||
   window.sessionStorage.getItem('manovella_force_update');
 if (updateToken) {
   _flutter.buildConfig.builds.forEach((build) => {
-    build.mainJsPath = `main.dart.js?update=${encodeURIComponent(updateToken)}`;
+    const cacheBuster = encodeURIComponent(updateToken);
+    if (build.mainJsPath) {
+      build.mainJsPath = `main.dart.js?update=${cacheBuster}`;
+    }
+    if (build.mainWasmPath) {
+      build.mainWasmPath = `main.dart.wasm?update=${cacheBuster}`;
+    }
+    if (build.jsSupportRuntimePath) {
+      build.jsSupportRuntimePath = `main.dart.mjs?update=${cacheBuster}`;
+    }
   });
 }
 
 _flutter.loader.load({
   serviceWorkerSettings: {
-    serviceWorkerVersion: "3365612959" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
+    serviceWorkerVersion: "3178741674" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
   }
 });
