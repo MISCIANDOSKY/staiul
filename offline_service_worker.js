@@ -3,11 +3,13 @@
 // Cache offline per MANOVELLA. La rete viene sempre tentata per prima: quando
 // disponibile l'app riceve gli aggiornamenti, quando manca usa l'ultima
 // versione completa già aperta sul dispositivo.
-const CACHE_NAME = 'manovella-offline-v2';
+const CACHE_NAME = 'manovella-offline-v3';
 const APP_SHELL = [
   './',
   './index.html',
   './main.dart.js',
+  './main.dart.wasm',
+  './main.dart.mjs',
   './flutter.js',
   './flutter_bootstrap.js',
   './version.json',
@@ -19,7 +21,11 @@ const APP_SHELL = [
   './assets/fonts/MaterialIcons-Regular.otf',
   './assets/assets/audio/trophy_unlock.mp3',
   './canvaskit/canvaskit.js',
-  './canvaskit/canvaskit.wasm'
+  './canvaskit/canvaskit.wasm',
+  './canvaskit/skwasm.js',
+  './canvaskit/skwasm.wasm',
+  './canvaskit/skwasm_heavy.js',
+  './canvaskit/skwasm_heavy.wasm'
 ];
 
 self.addEventListener('install', (event) => {
