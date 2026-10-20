@@ -58,6 +58,6 @@ if (updateToken) {
 
 _flutter.loader.load({
   serviceWorkerSettings: {
-    serviceWorkerVersion: "3081268175" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
+    serviceWorkerVersion: "3537232897" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
   }
 });
