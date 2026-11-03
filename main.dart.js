@@ -111429,7 +111429,7 @@ A.h3(s,s,!0,s,new A.aIX(this),r,s,!0,t.z)},
 a4u(){var s=this,r=null,q=t.p,p=A.b([B.d6,A.cO(A.lv(B.agE,B.ahb,s.gjo(s),A.kk(B.fe,B.cd,r,r,new A.di(A.fP(16),B.r),r)),56,r),B.d5,A.cO(A.lv(B.agT,B.ahS,new A.aHP(s),A.kk(B.mN,B.l,r,r,new A.di(A.fP(12),B.r),r)),54,r),B.dY],q)
 B.b.O(p,s.a6M())
 p.push(B.Kg)
-return A.dE(A.b([A.h8(A.iP(p,B.bo,r,!1),1),A.pE(!0,new A.bi(B.Rk,A.aa("Versione 1.81",r,r,r,B.acU,r,r,r),r),B.aj,!1)],q),B.U,B.L,B.ah)},
+return A.dE(A.b([A.h8(A.iP(p,B.bo,r,!1),1),A.pE(!0,new A.bi(B.Rk,A.aa("Versione 1.82",r,r,r,B.acU,r,r,r),r),B.aj,!1)],q),B.U,B.L,B.ah)},
 a6N(a,b,c,d,e){var s=null,r=A.fP(15),q=A.a7(31,c.q()>>>16&255,c.q()>>>8&255,c.q()&255),p=A.fP(15),o=new A.aZ(A.a7(140,c.q()>>>16&255,c.q()>>>8&255,c.q()&255),1,B.w,-1)
 return A.h8(A.oN(!1,r,!0,A.ft(s,A.dE(A.b([A.aa(d+" "+a,s,s,s,B.pz,s,s,s),B.ab3,A.aa(b,s,s,s,A.hi(s,s,c,s,s,s,s,s,s,s,s,28,s,s,B.b3,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.U,B.i9,B.ah),B.E,s,new A.de(q,s,new A.dO(o,o,o,o),p,s,s,B.aw),s,94,s,s,s,s,s),s,!0,s,s,s,s,s,s,s,s,s,e,s,s,s,s,s,s,s),1)},
 aIl(a,b,c,d){return this.a6N(a,b,c,d,null)},
@@ -111569,7 +111569,7 @@ j=t.a.a(B.a1.iA(0,A.k5(A.k_(g.e)).cS(0,g.w),null))
 g=J.ah(j,"release")
 i=g==null?null:J.dY(g)
 if(i==null||i.length===0)throw A.e(B.nU)
-if(i==="20261103-1500"){if(!a)m.c.Y(t.q).f.dB(A.cG(null,null,null,null,null,B.o,null,A.aa("Ultima versione gi\xe0 installata.",null,null,null,null,null,null,null),null,B.a5,null,null,null,null,null,null,null,null,null,null))
+if(i==="20261103-1600"){if(!a)m.c.Y(t.q).f.dB(A.cG(null,null,null,null,null,B.o,null,A.aa("Ultima versione gi\xe0 installata.",null,null,null,null,null,null,null),null,B.a5,null,null,null,null,null,null,null,null,null,null))
 n=[1]
 s=5
 break}g=m.c
@@ -111741,18 +111741,18 @@ case 2:return A.q(o.at(-1),r)}})
 return A.t($async$p0,r)},
 qR(a){return this.aqb(a)},
 XY(){return this.qR(!1)},
-aqb(a1){var s=0,r=A.u(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
-var $async$qR=A.v(function(a2,a3){if(a2===1){o.push(a3)
+aqb(a2){var s=0,r=A.u(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1
+var $async$qR=A.v(function(a3,a4){if(a3===1){o.push(a4)
 s=p}for(;;)switch(s){case 0:p=4
 s=7
 return A.l(n.db.Hg("my_league_messages",t.z),$async$qR)
-case 7:m=a3
+case 7:m=a4
 g=J.i0(t.j.a(m),new A.aGb(),t.a)
 f=A.Y(g,g.$ti.h("aG.E"))
 l=f
 if(n.c==null){s=1
 break}n.P(new A.aGc(n,l))
-if(!a1||!n.as){s=1
+if(!a2||!n.as){s=1
 break}for(g=J.bg(l),e=new A.nP(g,new A.aGd()),d=v.G,c=n.k3;e.A();){k=g.gT(g)
 j=A.k(J.ah(k,"id"))
 if(J.c2(j)===0||c.m(0,j))continue
@@ -111760,13 +111760,15 @@ c.E(0,j)
 b=J.ah(k,"league_name")
 i="\ud83c\udfc1 "+A.k(b==null?"Lega":b)
 b=J.ah(k,"sender_name")
-h=A.k(b==null?"Un membro":b)+" ti ha inviato un incoraggiamento"
+b=A.k(b==null?"Un membro":b)
+a=J.ah(k,"message")
+h=b+": "+A.k(a==null?"":a)
 d.manovellaShowMessageNotification(i,h)}n.us()
 p=2
 s=6
 break
 case 4:p=3
-a0=o.pop()
+a1=o.pop()
 s=6
 break
 case 3:s=2
@@ -120485,7 +120487,7 @@ B.ahy=new A.aj("Powered by MISCIANDOSKY",null,B.acC,null,null,null,null,null,nul
 B.d5=new A.dm(null,10,null,null)
 B.jf=new A.L(0.3843137254901961,1,1,1,B.f)
 B.afo=new A.w(!0,B.jf,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.agM=new A.aj("Versione 1.81",null,B.afo,null,null,null,null,null,null,null)
+B.agM=new A.aj("Versione 1.82",null,B.afo,null,null,null,null,null,null,null)
 B.a_y=s([B.ah3,B.fU,B.aif,B.pi,B.ahE,B.pi,B.ahy,B.d5,B.agM],t.p)
 B.PF=new A.vP(B.am,B.L,B.aT,B.U,null,B.cL,null,0,B.a_y,null)
 B.a74=new A.bi(B.Rp,B.PF,null)
