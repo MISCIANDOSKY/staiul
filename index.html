@@ -66,6 +66,23 @@
     </video>
   </div>
   <script>
+    // Notifiche dei messaggi di incoraggiamento. iPhone supporta questa API
+    // per le PWA installate; sugli altri browser viene usata quando presente.
+    window.manovellaSupportsNotifications = 'Notification' in window;
+    window.manovellaRequestNotificationPermission = async () => {
+      if (!window.manovellaSupportsNotifications) return 'unsupported';
+      return Notification.requestPermission();
+    };
+    window.manovellaShowMessageNotification = (title, body) => {
+      if (!window.manovellaSupportsNotifications || Notification.permission !== 'granted') return;
+      new Notification(title, {
+        body,
+        icon: 'icons/Icon-192.png',
+        badge: 'icons/Icon-192.png',
+        tag: 'manovella-league-message',
+      });
+    };
+
     // Il video copre l'avvio del motore Flutter. Si chiude solo quando il
     // filmato e la prima schermata dell'app sono entrambi pronti.
     (() => {
