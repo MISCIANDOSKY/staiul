@@ -69,6 +69,40 @@
     // Notifiche dei messaggi di incoraggiamento. iPhone supporta questa API
     // per le PWA installate; sugli altri browser viene usata quando presente.
     window.manovellaSupportsNotifications = 'Notification' in window;
+    const manovellaVapidPublicKey = 'BM6R7fDSmGmkY7lpe574JXruA7AuskNRLyJUSZ550hPPnW1FYilzvVrmLmzO6HnvHT8XWd7jlk0eGwUSlh6C94o';
+    window.manovellaSupportsWebPush =
+      window.manovellaSupportsNotifications && 'serviceWorker' in navigator && 'PushManager' in window;
+    const manovellaBase64ToBytes = (value) => {
+      const base64 = `${value}`.replace(/-/g, '+').replace(/_/g, '/');
+      const padded = base64 + '='.repeat((4 - base64.length % 4) % 4);
+      const raw = atob(padded);
+      return Uint8Array.from(raw, (character) => character.charCodeAt(0));
+    };
+    const manovellaWaitForWorker = (registration) => {
+      if (registration.active) return Promise.resolve(registration);
+      const worker = registration.installing || registration.waiting;
+      if (!worker) return Promise.resolve(registration);
+      return new Promise((resolve) => {
+        worker.addEventListener('statechange', () => {
+          if (registration.active) resolve(registration);
+        });
+      });
+    };
+    window.manovellaSubscribeToWebPush = async () => {
+      if (!window.manovellaSupportsWebPush || Notification.permission !== 'granted') {
+        throw new Error('Notifiche non autorizzate');
+      }
+      const registration = await navigator.serviceWorker.register('push_service_worker.js', { scope: 'push/' });
+      await manovellaWaitForWorker(registration);
+      let subscription = await registration.pushManager.getSubscription();
+      if (!subscription) {
+        subscription = await registration.pushManager.subscribe({
+          userVisibleOnly: true,
+          applicationServerKey: manovellaBase64ToBytes(manovellaVapidPublicKey),
+        });
+      }
+      return JSON.stringify(subscription.toJSON());
+    };
     window.manovellaRequestNotificationPermission = async () => {
       if (!window.manovellaSupportsNotifications) return 'unsupported';
       return Notification.requestPermission();
